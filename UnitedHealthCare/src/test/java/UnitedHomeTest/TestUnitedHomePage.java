@@ -76,4 +76,64 @@ public class TestUnitedHomePage extends CommonAPI {
             System.out.println("'Find a provider' text is not existed in this page");
         }
     }
+    @Test
+    public void checkInsurancePlansandProductsTextExist(){
+        if(driver.getPageSource().contains("Insurance Plans and Products")){
+            System.out.println("'Insurance Plans and Products' text is exist in the main page");
+        }
+        else{
+            System.out.println("'Insurance Plans and Products' not such text exist in the main page");
+        }
+    }
+    @Test
+    public void partABCD(){
+        clickByXpath("//img[@src='/content/dam/uhcdotcom/en/Common/Images/Medicare-90.jpg']");
+    }
+    @Test
+    public void checkMedicarePlansTextExist(){
+        if(driver.getPageSource().contains("Medicare Plans")){
+            System.out.println("'Medicare Plans' text exist in partABCD");
+        }
+        else{
+            System.out.println("'Medicare Plans' is not exist  in partABCD");
+        }
+    }
+    @Test
+    public void clickOnLearnMore(){
+        clickByXpath("//a[@href='/medicare.html']");
+    }
+    @Test
+    public void clickOnViewPlan(){
+        clickByXpath("//a[@href='https://www.aarpmedicareplans.com/health-plans.html?WT.mc_id=880332']");
+    }
+    @Test
+    public void checkSmallBusinessPlansTextExist(){
+        if(driver.getPageSource().contains("Small Business Plans")){
+            System.out.println("'Small Business Plans' text exist next to Medicare Plans");
+        }
+        else {
+            System.out.println("'Small Business Plans' text is not exist next to Medicare plans");
+        }
+    }
+    @Test
+    public void checkImage(){
+        clickByXpath("//img[@class='wrap-text-right' and @src='/content/dam/uhcdotcom/en/Common/Images/Small-Business-90.jpg']");
+    }
+    @Test
+    public void clickLearnMoreUnderSmallBusinessPlan(){
+        clickByXpath("//a[@href='/employer/small-business.html']");
+    }
+    @Test
+    public void checkIndividualFamilyPlansTextUnderMedicarePlan(){
+       if(driver.getPageSource().contains("Individual & Family Plans")){
+           System.out.println("'Individual & Family Plans' text exist under Medicare plans");
+       }
+       else {
+           System.out.println("'Individual & Family Plans' text is not exist under Medicare plans");
+       }
+    }
+    @Test
+    public void clickOnLearnMoreUnderIndividualsAndFamilyPlan(){
+        clickByXpath("//a[@aria-label='Learn More on Individual and Families']");
+    }
 }

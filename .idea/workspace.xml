@@ -2,14 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="23242d06-b98e-4953-b5d3-fb8352fc2e12" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Generic/src/main/java/base/CommonAPI.java" beforeDir="false" afterPath="$PROJECT_DIR$/Generic/src/main/java/base/CommonAPI.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Generic/target/Generic-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/Generic/target/Generic-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Generic/target/classes/base/CommonAPI.class" beforeDir="false" afterPath="$PROJECT_DIR$/Generic/target/classes/base/CommonAPI.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Generic/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/Generic/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Generic/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/Generic/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UnitedHealthCare/src/main/java/UnitedHome/UnitedHomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/UnitedHealthCare/src/main/java/UnitedHome/UnitedHomePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UnitedHealthCare/src/test/java/UnitedHomeTest/TestUnitedHomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/UnitedHealthCare/src/test/java/UnitedHomeTest/TestUnitedHomePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UnitedHealthCare/target/classes/UnitedHome/UnitedHomePage.class" beforeDir="false" afterPath="$PROJECT_DIR$/UnitedHealthCare/target/classes/UnitedHome/UnitedHomePage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UnitedHealthCare/target/test-classes/UnitedHomeTest/TestUnitedHomePage.class" beforeDir="false" afterPath="$PROJECT_DIR$/UnitedHealthCare/target/test-classes/UnitedHomeTest/TestUnitedHomePage.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -90,8 +87,34 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/UnitedHealthCare/src/main/java/UnitedHome/UnitedHomePage.java">
           <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="88">
+              <caret line="4" column="38" selection-start-line="4" selection-start-column="38" selection-end-line="4" selection-end-column="38" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#277#278#0" expanded="true" />
+                <element signature="e#301#302#0" expanded="true" />
+                <element signature="e#399#400#0" expanded="true" />
+                <element signature="e#423#424#0" expanded="true" />
+                <element signature="e#871#872#0" expanded="true" />
+                <element signature="e#897#898#0" expanded="true" />
+                <element signature="e#764#765#0" expanded="true" />
+                <element signature="e#816#817#0" expanded="true" />
+                <element signature="e#857#858#0" expanded="true" />
+                <element signature="e#881#882#0" expanded="true" />
+                <element signature="e#1008#1009#0" expanded="true" />
+                <element signature="e#1032#1033#0" expanded="true" />
+                <element signature="e#1140#1141#0" expanded="true" />
+                <element signature="e#1164#1165#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/UnitedHealthCare/src/test/java/UnitedHomeTest/HomePageTest.java">
+          <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="308">
-              <caret line="16" column="5" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
+              <caret line="14" column="35" selection-start-line="14" selection-start-column="35" selection-end-line="14" selection-end-column="35" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -99,29 +122,31 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/UnitedHealthCare/src/test/java/UnitedHomeTest/TestUnitedHomePage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="623">
-              <caret line="75" column="82" selection-start-line="75" selection-start-column="82" selection-end-line="75" selection-end-column="82" />
+            <state relative-caret-position="2860">
+              <caret line="136" column="81" selection-start-line="136" selection-start-column="81" selection-end-line="136" selection-end-column="81" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#240#241#0" expanded="true" />
-                <element signature="e#306#307#0" expanded="true" />
+                <element signature="e#687#688#0" expanded="true" />
                 <element signature="e#735#736#0" expanded="true" />
-                <element signature="e#779#780#0" expanded="true" />
-                <element signature="e#1458#1459#0" expanded="true" />
-                <element signature="e#1486#1487#0" expanded="true" />
                 <element signature="e#1594#1595#0" expanded="true" />
-                <element signature="e#1622#1623#0" expanded="true" />
+                <element signature="e#1634#1635#0" expanded="true" />
                 <element signature="e#1689#1690#0" expanded="true" />
-                <element signature="e#1719#1720#0" expanded="true" />
+                <element signature="e#1757#1758#0" expanded="true" />
                 <element signature="e#1800#1801#0" expanded="true" />
-                <element signature="e#1828#1829#0" expanded="true" />
+                <element signature="e#1840#1841#0" expanded="true" />
                 <element signature="e#1882#1883#0" expanded="true" />
-                <element signature="e#1912#1913#0" expanded="true" />
+                <element signature="e#1958#1959#0" expanded="true" />
                 <element signature="e#2003#2004#0" expanded="true" />
-                <element signature="e#2031#2032#0" expanded="true" />
+                <element signature="e#2043#2044#0" expanded="true" />
+                <element signature="e#2763#2764#0" expanded="true" />
+                <element signature="e#2864#2865#0" expanded="true" />
+                <element signature="e#3223#3224#0" expanded="true" />
+                <element signature="e#3282#3283#0" expanded="true" />
+                <element signature="e#4044#4045#0" expanded="true" />
+                <element signature="e#4118#4119#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -149,10 +174,11 @@
         <option value="$PROJECT_DIR$/Generic/src/secret.properties" />
         <option value="$PROJECT_DIR$/Generic/pom.xml" />
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/UnitedHealthCare/src/main/java/UnitedHome/UnitedHomePage.java" />
         <option value="$PROJECT_DIR$/UnitedHealthCare/pom.xml" />
         <option value="$PROJECT_DIR$/Generic/src/main/java/base/CommonAPI.java" />
         <option value="$PROJECT_DIR$/UnitedHealthCare/src/test/java/UnitedHomeTest/TestUnitedHomePage.java" />
+        <option value="$PROJECT_DIR$/UnitedHealthCare/src/main/java/UnitedHome/UnitedHomePage.java" />
+        <option value="$PROJECT_DIR$/UnitedHealthCare/src/test/java/UnitedHomeTest/HomePageTest.java" />
       </list>
     </option>
   </component>
@@ -253,20 +279,15 @@
               <item name="AutomationFrameworkGroup6" type="462c0819:PsiDirectoryNode" />
               <item name="UnitedHealthCare" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AutomationFrameworkGroup6" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AutomationFrameworkGroup6" type="462c0819:PsiDirectoryNode" />
+              <item name="UnitedHealthCare" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="AutomationFrameworkGroup6" type="b2602c69:ProjectViewProjectNode" />
-              <item name="AutomationFrameworkGroup6" type="462c0819:PsiDirectoryNode" />
-              <item name="UnitedHealthCare" type="462c0819:PsiDirectoryNode" />
-              <item name="target" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="AutomationFrameworkGroup6" type="b2602c69:ProjectViewProjectNode" />
-              <item name="AutomationFrameworkGroup6" type="462c0819:PsiDirectoryNode" />
-              <item name="UnitedHealthCare" type="462c0819:PsiDirectoryNode" />
-              <item name="target" type="462c0819:PsiDirectoryNode" />
-              <item name="test-classes" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -277,7 +298,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553311608284" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553366862066" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
@@ -308,16 +329,20 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.TestUnitedHomePage">
-    <configuration name="ConnectToSqlDB" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="databases.ConnectToSqlDB" />
-      <module name="Generic" />
+  <component name="RunManager" selected="TestNG.HomePageTest">
+    <configuration name="HomePageTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="UnitedHealthCare" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="databases.*" />
+          <option name="PATTERN" value="UnitedHomeTest.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="UnitedHomeTest" />
+      <option name="MAIN_CLASS_NAME" value="UnitedHomeTest.HomePageTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -395,11 +420,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.HomePageTest" />
         <item itemvalue="TestNG.TestUnitedHomePage" />
         <item itemvalue="TestNG.TestUnitedHomePage.testUHClogo" />
         <item itemvalue="TestNG.TestUnitedHomePage.testSearchBox" />
         <item itemvalue="TestNG.TestUnitedHomePage.testUHCtitle" />
-        <item itemvalue="Application.ConnectToSqlDB" />
       </list>
     </recent_temporary>
   </component>
@@ -417,15 +442,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="TestUnitedHomePage - 2019.03.22 at 12h 40m 18s.xml">
-      <configuration name="TestUnitedHomePage" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="TestUnitedHomePage - 2019.03.22 at 12h 47m 15s.xml">
-      <configuration name="TestUnitedHomePage" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="TestUnitedHomePage - 2019.03.22 at 12h 50m 50s.xml">
-      <configuration name="TestUnitedHomePage" configurationId="TestNG" />
-    </history-entry>
     <history-entry file="TestUnitedHomePage - 2019.03.22 at 21h 56m 32s.xml">
       <configuration name="TestUnitedHomePage" configurationId="TestNG" />
     </history-entry>
@@ -447,12 +463,29 @@
     <history-entry file="TestUnitedHomePage - 2019.03.22 at 23h 17m 51s.xml">
       <configuration name="TestUnitedHomePage" configurationId="TestNG" />
     </history-entry>
+    <history-entry file="TestUnitedHomePage - 2019.03.23 at 09h 27m 35s.xml">
+      <configuration name="TestUnitedHomePage" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="TestUnitedHomePage - 2019.03.23 at 10h 43m 08s.xml">
+      <configuration name="TestUnitedHomePage" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="HomePageTest - 2019.03.23 at 14h 11m 47s.xml">
+      <configuration name="HomePageTest" configurationId="TestNG" />
+    </history-entry>
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1536" height="864" extended-state="0" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.15176152" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19715448" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -465,8 +498,8 @@
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3989071" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32956153" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.329235" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.329235" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.329235" />
@@ -586,38 +619,64 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/UnitedHealthCare/src/main/java/UnitedHome/UnitedHomePage.java">
+    <entry file="file://$PROJECT_DIR$/UnitedHealthCare/src/test/java/UnitedHomeTest/TestUnitedHomePage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="16" column="5" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
+        <state relative-caret-position="2860">
+          <caret line="136" column="81" selection-start-line="136" selection-start-column="81" selection-end-line="136" selection-end-column="81" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#687#688#0" expanded="true" />
+            <element signature="e#735#736#0" expanded="true" />
+            <element signature="e#1594#1595#0" expanded="true" />
+            <element signature="e#1634#1635#0" expanded="true" />
+            <element signature="e#1689#1690#0" expanded="true" />
+            <element signature="e#1757#1758#0" expanded="true" />
+            <element signature="e#1800#1801#0" expanded="true" />
+            <element signature="e#1840#1841#0" expanded="true" />
+            <element signature="e#1882#1883#0" expanded="true" />
+            <element signature="e#1958#1959#0" expanded="true" />
+            <element signature="e#2003#2004#0" expanded="true" />
+            <element signature="e#2043#2044#0" expanded="true" />
+            <element signature="e#2763#2764#0" expanded="true" />
+            <element signature="e#2864#2865#0" expanded="true" />
+            <element signature="e#3223#3224#0" expanded="true" />
+            <element signature="e#3282#3283#0" expanded="true" />
+            <element signature="e#4044#4045#0" expanded="true" />
+            <element signature="e#4118#4119#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/UnitedHealthCare/src/test/java/UnitedHomeTest/TestUnitedHomePage.java">
+    <entry file="file://$PROJECT_DIR$/UnitedHealthCare/src/main/java/UnitedHome/UnitedHomePage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="623">
-          <caret line="75" column="82" selection-start-line="75" selection-start-column="82" selection-end-line="75" selection-end-column="82" />
+        <state relative-caret-position="88">
+          <caret line="4" column="38" selection-start-line="4" selection-start-column="38" selection-end-line="4" selection-end-column="38" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#240#241#0" expanded="true" />
-            <element signature="e#306#307#0" expanded="true" />
-            <element signature="e#735#736#0" expanded="true" />
-            <element signature="e#779#780#0" expanded="true" />
-            <element signature="e#1458#1459#0" expanded="true" />
-            <element signature="e#1486#1487#0" expanded="true" />
-            <element signature="e#1594#1595#0" expanded="true" />
-            <element signature="e#1622#1623#0" expanded="true" />
-            <element signature="e#1689#1690#0" expanded="true" />
-            <element signature="e#1719#1720#0" expanded="true" />
-            <element signature="e#1800#1801#0" expanded="true" />
-            <element signature="e#1828#1829#0" expanded="true" />
-            <element signature="e#1882#1883#0" expanded="true" />
-            <element signature="e#1912#1913#0" expanded="true" />
-            <element signature="e#2003#2004#0" expanded="true" />
-            <element signature="e#2031#2032#0" expanded="true" />
+            <element signature="e#277#278#0" expanded="true" />
+            <element signature="e#301#302#0" expanded="true" />
+            <element signature="e#399#400#0" expanded="true" />
+            <element signature="e#423#424#0" expanded="true" />
+            <element signature="e#871#872#0" expanded="true" />
+            <element signature="e#897#898#0" expanded="true" />
+            <element signature="e#764#765#0" expanded="true" />
+            <element signature="e#816#817#0" expanded="true" />
+            <element signature="e#857#858#0" expanded="true" />
+            <element signature="e#881#882#0" expanded="true" />
+            <element signature="e#1008#1009#0" expanded="true" />
+            <element signature="e#1032#1033#0" expanded="true" />
+            <element signature="e#1140#1141#0" expanded="true" />
+            <element signature="e#1164#1165#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/UnitedHealthCare/src/test/java/UnitedHomeTest/HomePageTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="14" column="35" selection-start-line="14" selection-start-column="35" selection-end-line="14" selection-end-column="35" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
