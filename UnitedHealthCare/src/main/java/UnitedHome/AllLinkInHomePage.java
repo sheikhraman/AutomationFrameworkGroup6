@@ -1,0 +1,233 @@
+package UnitedHome;
+import base.CommonAPI;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.FindBy;
+import org.openqa.selenium.support.PageFactory;
+public class AllLinkInHomePage extends CommonAPI {
+    public AllLinkInHomePage(){
+        PageFactory.initElements(driver,this);
+    }
+    @FindBy(xpath = "//span[@class='list-pipe-separator']//a[@class='at-element-click-tracking' and @href='https://www.uhcprovider.com/']")
+    WebElement providerLink;
+    @FindBy(xpath = "//span[@class='list-pipe-separator']//a[@href='https://www.uhc.com/broker']")
+    WebElement brokerLink;
+    @FindBy(xpath = "//a[contains(text(),'Español')]")
+    WebElement languageLink;
+    @FindBy(id = "loginmenubutton")
+    WebElement checkSignIn;
+    @FindBy(xpath = "//li[@class='home']//a[@class='top-menu1']")
+    WebElement checkHomeLink;
+    @FindBy(xpath = "//li[@class='individual-family ']//a[@title='Individuals & Families']")
+    WebElement checkInidvidualAndFamilyLink;
+    @FindBy(xpath = "//li[@class='employers ']//a[@class='top-menu3']")
+    WebElement checkEmployersLink;
+    @FindBy(xpath = "//li[@class='medicare']//a[@class='at-element-click-tracking']")
+    WebElement checkMedicareLink;
+    @FindBy(xpath = "//li[@class='find-doc ']//a[@class='top-menu6']")
+    WebElement checkFindDoctors;
+    @FindBy(xpath = "//a[@href='/find-a-physician']//span[contains(text(),'Search Providers')]")
+    WebElement checkSearchProvider;
+    @FindBy(xpath = "//a[@href='https://www.aarpmedicareplans.com/medicare-plans.html?WT.mc_id=8006719']//span[contains(text(),'Find Plans')]")
+    WebElement checkFindPlans;
+    @FindBy(xpath = "//a[@href='/individual-and-family/member-resources/health-care-tools/virtual-visits?icid=VirtualVisitsAnytimeC']//span[contains(text(),'See Options')]")
+    WebElement checkSeeOptions;
+    @FindBy(xpath = "//p[@style='text-align: center;']//a[@href='/individual-and-family']")
+    WebElement checkIndividualsLink;
+    @FindBy(xpath = "//p[@style='text-align: center;']// a[@aria-label='Health insurance for employers']")
+    WebElement checkEmployers;
+    @FindBy(xpath = "//a[@href='/medicare' and @aria-label='Learn more on our Medicare page']")
+    WebElement checkLearnMoreLink;
+    @FindBy(xpath = "//a[@href='https://www.aarpmedicareplans.com/health-plans.html?WT.mc_id=880332' and @aria-label='View Medicare plans (opens in a new window)']")
+    WebElement checkViewPlansUnderMedicarePlan;
+    @FindBy(xpath = "//a[@href='/employer/small-business' and @aria-label='Health Insurance for Small Business']")
+    WebElement checkLearnMoreLinkUnderSmalBusiness;
+    @FindBy(xpath ="//a[@href='/individual-and-family' and @aria-label='Learn More on Individual and Families']")
+    WebElement checkLearnMoreUnderIndividualsFamilyPlan;
+    @FindBy(xpath = "//a[@href='https://www.uhone.com/shop/#?LeadsourceName=UHC-Website' and @aria-label='View plans on UHOne.com (opens in a new window)']")
+    WebElement checkViewPlanUnderIndividualsAndFailyPlan;
+    @FindBy(xpath = "//a[@href='/individual-and-family/dental-insurance' and @aria-label='Learn More about Dental Plans']")
+    WebElement checkLearnMoreUnderdDentalPlan;
+    @FindBy(xpath = "//a[@href='https://www.uhone.com/shop/#/census?LeadSourceName=UHC-Website-Dental' and @aria-label='View Dental plans on UHOne.com (opens in a new window)']")
+    WebElement checkViewPlansUnderDentalPlan;
+    @FindBy(xpath = "//a[@href='/individual-and-family/short-term-health-insurance' and @aria-label='Learn More on Short-Term Health Insurance']")
+    WebElement checkLearnMoreUnderShortTermHealthIns;
+    @FindBy(xpath = "//a[@href='https://www.uhone.com/shop/#?LeadSourceName=UHC-Website-STM' and @target='_blank']")
+    WebElement checkViewPlansUndedrShortTermIns;
+    @FindBy(xpath = "//a[@href='https://uhccommunityplan.com' and @target='_blank']")
+    WebElement checkLearnMoreUnderMedicaidPlan;
+    @FindBy(xpath = "//a[contains(text(),'Hospital and Doctor Insurance')]")
+    WebElement checkHospitalAndDoctorInsurance;
+    @FindBy(xpath = "//a[@href='/individual-and-family/insurance-plans/critical-illness.html']//span[@class='arrow-link']")
+    WebElement checkCriticalIllnessInsurance;
+    @FindBy(xpath = "//a[contains(text(),'Supplemental Insurance' )and @href='Supplemental Insurance']")
+    WebElement checkSuplementalInsurance;
+    @FindBy(xpath = "//span[@class='arrow-link']//a[contains(text(),'Vision Insurance' )]")
+    WebElement checkVisionInsurance;
+    @FindBy(xpath = "//span[@class='arrow-link']//a[contains(text(),'Accident Insurance' )]")
+    WebElement checkAccidentInsurance;
+    @FindBy(xpath = "//span[@class='arrow-link']//a[@href='https://www.uhcglobal.com/']")
+    WebElement checkGlobalInsurance;
+    @FindBy(xpath = "//span[@class='arrow-link']//a[contains(text(),'Term Life Insurance')]")
+    WebElement checkTermLifeInsurance;
+    @FindBy(xpath = "//span[@class='arrow-link']//a[contains(text(),'Hospitalization Insurance')]")
+    WebElement checkHospitalizationInsurance;
+    @FindBy(xpath = "//a[contains(text(),'Global Travel Insurance')]")
+    WebElement checkGlobalTravelInsurance;
+    @FindBy(xpath = "//span[@class='arrow-link' and contains(text(),'Access the Provider Portal')]")
+    WebElement checkAccessTheProviderPortal;
+    @FindBy(xpath = "//a[@href='/broker.html' and contains(text(),'View Broker Resources')]")
+    WebElement checkBrokerResource;
+    @FindBy(xpath = "//span[@class='arrow-link' and contains(text(),'Find a nearby clinic.')]")
+    WebElement checkNearByClinic;
+    @FindBy(xpath = "//a[@href='/content/uhcdotcom/en/home/individual-and-family/understanding-health-insurance/how-insurance-works/health-insurance-marketplace']")
+    WebElement checkMarketPlaceInsurance;
+    @FindBy(xpath = "//a[contains(text(),'Fitness')]")
+    WebElement checkFitness;
+    @FindBy(xpath = "//a[contains(text(),'Open Enrollment')]")
+    WebElement checkOpenEnrolMent;
+    @FindBy(xpath = "//a[contains(text(),'Language Assistance/ Nondiscrimination Notice')]")
+    WebElement checkLanguageAssistant;
+    @FindBy(xpath = "//a[contains(text(),'Medicare') and @href='https://www.aarpmedicareplans.com/?WT.mc_id=880332']")
+    WebElement checkMedicare;
+    @FindBy(xpath = "//a[contains(text(),'Nutrition') and @href='/content/uhcdotcom/en/home/health-and-wellness/nutrition']")
+    WebElement checkNutrition;
+    @FindBy(xpath = "//a[contains(text(),'Member Resources') and @href='/content/uhcdotcom/en/home/individual-and-family/member-resources']")
+    WebElement checkMemberResource;
+    @FindBy(xpath = "//a[contains(text(),'Asistencia de Idiomas / Aviso de no Discriminación')]")
+    WebElement checkAsistenciaDeIdiomsa;
+    @FindBy(xpath = "//a[contains(text(),'Medicaid') and @href='/individual-and-family/health-insurance-plans/medicare-medicaid/what-is-medicaid']")
+    WebElement checkMedicaid;
+    @FindBy(xpath = "//a[contains(text(),'Health Topics') and @href='/health-and-wellness/health-topics']")
+    WebElement checkHealthTopics;
+    @FindBy(xpath = "//a[contains(text(),'About Us') and @href='/about-us']")
+    WebElement checkAboutUs;
+    @FindBy(xpath = "//a[contains(text(),'Employer Group Plans') and @href='/employer']")
+    WebElement checkEmployerGropPlan;
+    @FindBy(xpath = "//a[contains(text(),'Take Control of Your Care') and @href='/health-and-wellness/take-control-of-your-care']")
+    WebElement checkTakeControlOfYourCare;
+    @FindBy(xpath = "//a[contains(text(),'United For Reform') and @href='/united-for-reform']")
+    WebElement checkUnitedForReform;
+    @FindBy(xpath = "//a[contains(text(),'Dental Insurance') and @href='/individual-and-family/dental-insurance']")
+    WebElement checkDentalInsurance;
+    @FindBy(xpath = "//a[contains(text(),'Health and Wellness') and @href='/health-and-wellness']")
+    WebElement checkHealthAndWellness;
+    @FindBy(xpath = "//a[contains(text(),'Value-Based Care') and @href='/valuebasedcare']")
+    WebElement checkValueBasedCare;
+    @FindBy(xpath = " //span[@class='arrow-link']//a[contains(text(),'Vision Insurance') and @href='/individual-and-family/insurance-plans/vision']")
+    WebElement checkVisionInsurances;
+    @FindBy(xpath = " //a[contains(text(),'Programs & Tools') and @href='/individual-and-family/member-resources/health-care-tools']")
+    WebElement checkProgramAndTools;
+    @FindBy(xpath = " //a[contains(text(),'View Drug List') and @href='http://www.myuhc.com/']")
+    WebElement  checkViewDrugList;
+    @FindBy(xpath = "//li[@lang='en']//a[contains(text(),'Find a Doctor') and @href='/find-a-physician' and @target ='_self']")
+    WebElement  checkFindADoctors;
+    @FindBy(xpath = "//li[@lang='en']//a[contains(text(),'Short Term Health Insurance') and @href='/individual-and-family/short-term-health-insurance' and @target ='_self']")
+    WebElement checkShortTermHealthInsurance;
+    @FindBy(xpath = "//li[@lang='en']//a[contains(text(),'Download Health4Me App') and @href='/individual-and-family/member-resources/health-care-tools/health4me']")
+    WebElement checkDownloadHealthForMe;
+    @FindBy(xpath = "//li[@lang='en']//a[contains(text(),'Print ID Card')]")
+    WebElement checkPrintIDcard;
+    @FindBy(xpath = "//li[@lang='en']//a[contains(text(),'Broker Resources') and @href='https://www.uhc.com/broker'] ")
+    WebElement checkBrokerResources;
+    @FindBy(xpath = "//li[@lang='en']//a[contains(text(),'View Claims')] ")
+    WebElement checkViewClaim;
+    @FindBy(xpath = "//li[@lang='en']//a[contains(text(),'Just Plain Clear® Glossary') and @href='http://www.justplainclear.com?srcName=uhc_com-FeaturedLink']")
+    WebElement checkJustPlainGlocdry;
+    @FindBy(xpath = "//li[@lang='en']//a[contains(text(),'Check Benefits')] ")
+    WebElement  checkBenefit;
+    @FindBy(xpath = "//a[contains(text(),'Newsroom') and @href='https://newsroom.uhc.com'] ")
+    WebElement checkNewsRoom;
+    @FindBy(xpath = "//a[contains(text(),'Contact Us') and @href='/contact-us'] ")
+    WebElement checkContactUs;
+    @FindBy(xpath = "//a[contains(text(),'Careers') and @href='/about-us/careers'] ")
+    WebElement checkCareers;
+    @FindBy(xpath = "//a[contains(text(),'Health Care Fraud') and @href='/fraud'] ")
+    WebElement checkHealthCareFraud;
+    @FindBy(xpath = "//a[contains(text(),'Legal') and @href='/legal'] ")
+    WebElement checkLegal;
+    @FindBy(xpath = "//a[contains(text(),'Privacy') and @href='/privacy'] ")
+    WebElement checkPrivacy;
+    @FindBy(xpath = "//a[contains(text(),'Terms of Use') and @href='/privacy/terms-of-use'] ")
+    WebElement checkTermsOfUse;
+    @FindBy(xpath = "//a[contains(text(),'Accessibility') and @href='/legal/accessibility'] ")
+    WebElement checkTermsOfUses;
+    public WebElement homePageProviderLink(){
+        return providerLink;
+    }
+    public WebElement homePageBrokerLink(){
+        return brokerLink;
+    }
+    public WebElement homePageLanguageLink(){
+        return languageLink;
+    }
+    public WebElement homePageSignInlink(){
+        return checkSignIn;
+    }
+    public WebElement homePageHomeLink(){
+        return checkHomeLink;
+    }
+    public WebElement homePageIndividualAndFamilyLink(){
+        return checkInidvidualAndFamilyLink;
+    }
+    public WebElement homePageEmployerLink(){
+        return checkEmployersLink;
+    }
+    public WebElement homePageMedicareLink(){
+        return checkMedicareLink;
+    }
+    public WebElement homePageFindDoctorsLink(){
+        return checkFindDoctors;
+    }
+    public WebElement homePageSearchProviderLink(){
+        return checkSearchProvider;
+    }
+    public WebElement homePageFindPlan(){
+        return checkFindPlans;
+    }
+    public WebElement homePageSeeOptionLink(){
+        return checkSeeOptions;
+    }
+    public WebElement homePageCheckIndividualsLink(){
+        return checkIndividualsLink;
+    }
+    public WebElement homePageEmployees(){
+        return checkEmployers;
+    }
+    public WebElement homePageLearnMore(){
+        return checkLearnMoreLink;
+    }
+    public WebElement homePagePlanUnderMedicare(){
+        return checkViewPlansUnderMedicarePlan;
+    }
+    public WebElement homePageLearnMoreUnderstandSmallBusiness(){
+        return checkLearnMoreLinkUnderSmalBusiness;
+    }
+    public WebElement homePageLearnMores(){
+        return checkViewPlanUnderIndividualsAndFailyPlan;
+    }
+    public WebElement homePageLearnIndvidualFamilyLink(){
+        return checkLearnMoreUnderIndividualsFamilyPlan;
+    }
+    public WebElement homePageMorePlan(){
+        return checkLearnMoreUnderShortTermHealthIns;
+    }
+    public WebElement homePageDentalPlan(){
+        return checkLearnMoreUnderdDentalPlan;
+    }
+    public WebElement homePagePlan(){
+        return checkViewPlansUnderDentalPlan;
+    }
+    public WebElement homePageShortTremHealthInsurace(){
+        return checkLearnMoreUnderShortTermHealthIns;
+    }
+    public WebElement homePageViewPlanUnterShortTerm(){
+        return checkViewPlansUndedrShortTermIns;
+    }
+    public WebElement homePageUnderMedicaidPlan(){
+        return checkLearnMoreUnderMedicaidPlan;
+    }
+    public WebElement homePaeHospitalandDoctoreInsur(){
+        return checkHospitalAndDoctorInsurance;
+    }
+
+}
