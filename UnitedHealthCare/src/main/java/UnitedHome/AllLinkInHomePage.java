@@ -22,35 +22,35 @@ public class AllLinkInHomePage extends CommonAPI {
     WebElement checkInidvidualAndFamilyLink;
     @FindBy(xpath = "//li[@class='employers ']//a[@class='top-menu3']")
     WebElement checkEmployersLink;
-    @FindBy(xpath = "//li[@class='medicare']//a[@class='at-element-click-tracking']")
+    @FindBy(xpath = "//a[contains(text(),'Medicare') and @href='/content/uhcdotcom/en/home/medicare' and @class='at-element-click-tracking']")
     WebElement checkMedicareLink;
-    @FindBy(xpath = "//li[@class='medicare']//a[contains(text(),' Medicare ') and @class='at-element-click-tracking']")
+    @FindBy(className = "top-menu6")
     WebElement checkFindDoctors;
-    @FindBy(xpath = "//a[@href='/find-a-physician']//span[contains(text(),'Search Providers')]")
-    WebElement checkSearchProvider;
-    @FindBy(xpath = "//a[@href='https://www.aarpmedicareplans.com/medicare-plans.html?WT.mc_id=8006719']//span[contains(text(),'Find Plans')]")
-    WebElement checkFindPlans;
+    @FindBy(xpath = "//span[contains(text(),'Search Providers')]")
+    WebElement SearchProviders;
+    @FindBy(xpath = "//span[contains(text(),'Find Out More')]")
+    WebElement checkFindOutMore;
     @FindBy(xpath = "//a[@href='/individual-and-family/member-resources/health-care-tools/virtual-visits?icid=VirtualVisitsAnytimeC']//span[contains(text(),'See Options')]")
     WebElement checkSeeOptions;
-    @FindBy(xpath = "//p[@style='text-align: center;']//a[@href='/individual-and-family']")
+    @FindBy(xpath = "//a[contains(text(),'individuals')]")
     WebElement checkIndividualsLink;
     @FindBy(xpath = "//p[@style='text-align: center;']// a[@aria-label='Health insurance for employers']")
     WebElement checkEmployers;
-    @FindBy(xpath = "//a[@href='/medicare' and @aria-label='Learn more on our Medicare page']")
+    @FindBy(xpath = "//a[@href='/medicare.html' and @aria-label='Learn more on our Medicare page']")
     WebElement checkLearnMoreLink;
     @FindBy(xpath = "//a[@href='https://www.aarpmedicareplans.com/health-plans.html?WT.mc_id=880332' and @aria-label='View Medicare plans (opens in a new window)']")
     WebElement checkViewPlansUnderMedicarePlan;
-    @FindBy(xpath = "//a[@href='/employer/small-business' and @aria-label='Health Insurance for Small Business']")
+    @FindBy(xpath = "//a[@href='/employer/small-business.html' and @aria-label='Health Insurance for Small Business']")
     WebElement checkLearnMoreLinkUnderSmalBusiness;
-    @FindBy(xpath = "//a[@href='/individual-and-family' and @aria-label='Learn More on Individual and Families']")
+    @FindBy(xpath = "//a[@href='/individual-and-family.html' and @aria-label='Learn More on Individual and Families']")
     WebElement checkLearnMoreUnderIndividualsFamilyPlan;
     @FindBy(xpath = "//a[@href='https://www.uhone.com/shop/#?LeadsourceName=UHC-Website' and @aria-label='View plans on UHOne.com (opens in a new window)']")
     WebElement checkViewPlanUnderIndividualsAndFailyPlan;
-    @FindBy(xpath = "//a[@href='/individual-and-family/dental-insurance' and @aria-label='Learn More about Dental Plans']")
+    @FindBy(xpath = "//a[@href='/individual-and-family/dental-insurance.html' and @aria-label='Learn More about Dental Plans']")
     WebElement checkLearnMoreUnderdDentalPlan;
     @FindBy(xpath = "//a[@href='https://www.uhone.com/shop/#/census?LeadSourceName=UHC-Website-Dental' and @aria-label='View Dental plans on UHOne.com (opens in a new window)']")
     WebElement checkViewPlansUnderDentalPlan;
-    @FindBy(xpath = "//a[@href='/individual-and-family/short-term-health-insurance' and @aria-label='Learn More on Short-Term Health Insurance']")
+    @FindBy(xpath = "//a[@href='/individual-and-family/short-term-health-insurance.html']")
     WebElement checkLearnMoreUnderShortTermHealthIns;
     @FindBy(xpath = "//a[@href='https://www.uhone.com/shop/#?LeadSourceName=UHC-Website-STM' and @target='_blank']")
     WebElement checkViewPlansUndedrShortTermIns;
@@ -60,13 +60,13 @@ public class AllLinkInHomePage extends CommonAPI {
     WebElement checkHospitalAndDoctorInsurance;
     @FindBy(xpath = "//a[@href='/individual-and-family/insurance-plans/critical-illness.html']//span[@class='arrow-link']")
     WebElement checkCriticalIllnessInsurance;
-    @FindBy(xpath = "//a[contains(text(),'Supplemental Insurance' )and @href='Supplemental Insurance']")
+    @FindBy(xpath = "//a[contains(text(),'Supplemental Insurance' )]")
     WebElement checkSuplementalInsurance;
     @FindBy(xpath = "//span[@class='arrow-link']//a[contains(text(),'Vision Insurance' )]")
     WebElement checkVisionInsurance;
     @FindBy(xpath = "//span[@class='arrow-link']//a[contains(text(),'Accident Insurance' )]")
     WebElement checkAccidentInsurance;
-    @FindBy(xpath = "//span[@class='arrow-link']//a[@href='https://www.uhcglobal.com/']")
+    @FindBy(xpath = "//a[@href='https://www.uhcglobal.com/']")
     WebElement checkGlobalInsurance;
     @FindBy(xpath = "//span[@class='arrow-link']//a[contains(text(),'Term Life Insurance')]")
     WebElement checkTermLifeInsurance;
@@ -102,7 +102,7 @@ public class AllLinkInHomePage extends CommonAPI {
     WebElement checkHealthTopics;
     @FindBy(xpath = "//a[contains(text(),'About Us') and @href='/about-us']")
     WebElement checkAboutUs;
-    @FindBy(xpath = "//a[contains(text(),'Employer Group Plans') and @href='/employer']")
+    @FindBy(xpath = "//a[contains(text(),'Employer Group Plans')]")
     WebElement checkEmployerGropPlan;
     @FindBy(xpath = "//a[contains(text(),'Take Control of Your Care') and @href='/health-and-wellness/take-control-of-your-care']")
     WebElement checkTakeControlOfYourCare;
@@ -110,7 +110,7 @@ public class AllLinkInHomePage extends CommonAPI {
     WebElement checkUnitedForReform;
     @FindBy(xpath = "//a[contains(text(),'Dental Insurance') and @href='/individual-and-family/dental-insurance']")
     WebElement checkDentalInsurance;
-    @FindBy(xpath = "//a[contains(text(),'Health and Wellness') and @href='/health-and-wellness']")
+    @FindBy(xpath = "//a[contains(text(),'Health and Wellness')]")
     WebElement checkHealthAndWellness;
     @FindBy(xpath = "//a[contains(text(),'Value-Based Care') and @href='/valuebasedcare']")
     WebElement checkValueBasedCare;
@@ -120,7 +120,7 @@ public class AllLinkInHomePage extends CommonAPI {
     WebElement checkProgramAndTools;
     @FindBy(xpath = " //a[contains(text(),'View Drug List') and @href='http://www.myuhc.com/']")
     WebElement checkViewDrugList;
-    @FindBy(xpath = "//li[@lang='en']//a[contains(text(),'Find a Doctor') and @href='/find-a-physician' and @target ='_self']")
+    @FindBy(xpath = "//li[@class='find-doc ']//a[contains(text(),'Find a Doctor')]")
     WebElement checkFindADoctors;
     @FindBy(xpath = "//li[@lang='en']//a[contains(text(),'Short Term Health Insurance') and @href='/individual-and-family/short-term-health-insurance' and @target ='_self']")
     WebElement checkShortTermHealthInsurance;
@@ -144,9 +144,9 @@ public class AllLinkInHomePage extends CommonAPI {
     WebElement checkCareers;
     @FindBy(xpath = "//a[contains(text(),'Health Care Fraud') and @href='/fraud'] ")
     WebElement checkHealthCareFraud;
-    @FindBy(xpath = "//a[contains(text(),'Legal') and @href='/legal'] ")
+    @FindBy(xpath = "//a[contains(text(),'Legal')]")
     WebElement checkLegal;
-    @FindBy(xpath = "//a[contains(text(),'Privacy') and @href='/privacy'] ")
+    @FindBy(xpath = "//a[contains(text(),'Privacy')] ")
     WebElement checkPrivacy;
     @FindBy(xpath = "//a[contains(text(),'Terms of Use') and @href='/privacy/terms-of-use'] ")
     WebElement checkTermsOfUse;
@@ -187,15 +187,15 @@ public class AllLinkInHomePage extends CommonAPI {
         return checkFindDoctors;
     }
 
-    public WebElement homePageSearchProviderLink() {
-        return checkSearchProvider;
+    public WebElement homePageSearchProviderLink() {//?
+        return SearchProviders;
     }
 
-    public WebElement homePageFindPlan() {
-        return checkFindPlans;
+    public WebElement homePageFindOutMore() {//?
+        return checkFindOutMore;
     }
 
-    public WebElement homePageSeeOptionLink() {
+    public WebElement homePageSeeOptionLink() {//?
         return checkSeeOptions;
     }
 
@@ -215,7 +215,7 @@ public class AllLinkInHomePage extends CommonAPI {
         return checkViewPlansUnderMedicarePlan;
     }
 
-    public WebElement homePageLearnMoreUnderstandSmallBusiness() {
+    public WebElement homePageLearnMoreUnderstandSmallBusiness() {//d
 
         return checkLearnMoreLinkUnderSmalBusiness;
     }
@@ -236,7 +236,7 @@ public class AllLinkInHomePage extends CommonAPI {
         return checkLearnMoreUnderdDentalPlan;
     }
 
-    public WebElement homePagePlan() {
+    public WebElement homePagePlan() {//d
         return checkViewPlansUnderDentalPlan;
     }
 
@@ -244,15 +244,17 @@ public class AllLinkInHomePage extends CommonAPI {
         return checkLearnMoreUnderShortTermHealthIns;
     }
 
-    public WebElement homePageViewPlanUnterShortTerm() {
+    public WebElement homePageViewPlanUnterShortTerm() {//n
         return checkViewPlansUndedrShortTermIns;
     }
 
     public WebElement homePageUnderMedicaidPlan() {
+
         return checkLearnMoreUnderMedicaidPlan;
     }
 
     public WebElement homePaeHospitalandDoctoreInsur() {
+
         return checkHospitalAndDoctorInsurance;
     }
 

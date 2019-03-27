@@ -2,8 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="23242d06-b98e-4953-b5d3-fb8352fc2e12" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Group6AutomationFramework.iml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/UnitedHealthCare/src/main/java/UnitedHome/AllLinkInHomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/UnitedHealthCare/src/main/java/UnitedHome/AllLinkInHomePage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/UnitedHealthCare/src/test/java/UnitedHomeTest/HomePageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/UnitedHealthCare/src/test/java/UnitedHomeTest/HomePageTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UnitedHealthCare/target/classes/UnitedHome/AllLinkInHomePage.class" beforeDir="false" afterPath="$PROJECT_DIR$/UnitedHealthCare/target/classes/UnitedHome/AllLinkInHomePage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UnitedHealthCare/target/test-classes/UnitedHomeTest/HomePageTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/UnitedHealthCare/target/test-classes/UnitedHomeTest/HomePageTest.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -17,29 +21,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1672">
-              <caret line="76" column="16" selection-start-line="76" selection-start-column="16" selection-end-line="76" selection-end-column="16" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Generic/src/main/java/base/CommonAPI.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1188">
-              <caret line="76" column="99" selection-start-line="76" selection-start-column="99" selection-end-line="76" selection-end-column="99" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#15799#15800#0" expanded="true" />
-                <element signature="e#15847#15848#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Generic/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
@@ -72,129 +53,13 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/UnitedHealthCare/src/test/java/UnitedHomeTest/HomePageTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="440">
-              <caret line="20" column="7" lean-forward="true" selection-start-line="20" selection-start-column="7" selection-end-line="20" selection-end-column="7" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/UnitedHealthCare/src/main/java/UnitedHome/AllLinkInHomePage.java">
+        <entry file="file://$PROJECT_DIR$/UnitedHealthCare/src/test/java/TestPageObjectModel/TestFindIndividualsAndFamilies.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="440">
-              <caret line="26" column="117" selection-start-line="26" selection-start-column="117" selection-end-line="26" selection-end-column="117" />
+            <state relative-caret-position="242">
+              <caret line="14" column="65" selection-start-line="14" selection-start-column="65" selection-end-line="14" selection-end-column="65" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#309#310#0" expanded="true" />
-                <element signature="e#10735#10736#0" expanded="true" />
-                <element signature="e#10818#10819#0" expanded="true" />
-                <element signature="e#10898#10899#0" expanded="true" />
-                <element signature="e#10978#10979#0" expanded="true" />
-                <element signature="e#11088#11089#0" expanded="true" />
-                <element signature="e#11177#11178#0" expanded="true" />
-                <element signature="e#11265#11266#0" expanded="true" />
-                <element signature="e#11355#11356#0" expanded="true" />
-                <element signature="e#11451#11452#0" expanded="true" />
-                <element signature="e#11532#11533#0" expanded="true" />
-                <element signature="e#11619#11620#0" expanded="true" />
-                <element signature="e#11718#11719#0" expanded="true" />
-                <element signature="e#11800#11801#0" expanded="true" />
-                <element signature="e#11886#11887#0" expanded="true" />
-                <element signature="e#11993#11994#0" expanded="true" />
-                <element signature="e#12230#12231#0" expanded="true" />
-                <element signature="e#12353#12354#0" expanded="true" />
-                <element signature="e#12457#12458#0" expanded="true" />
-                <element signature="e#12556#12557#0" expanded="true" />
-                <element signature="e#12648#12649#0" expanded="true" />
-                <element signature="e#12767#12768#0" expanded="true" />
-                <element signature="e#12880#12881#0" expanded="true" />
-                <element signature="e#12987#12988#0" expanded="true" />
-                <element signature="e#13099#13100#0" expanded="true" />
-                <element signature="e#13211#13212#0" expanded="true" />
-                <element signature="e#13315#13316#0" expanded="true" />
-                <element signature="e#13408#13409#0" expanded="true" />
-                <element signature="e#13508#13509#0" expanded="true" />
-                <element signature="e#13601#13602#0" expanded="true" />
-                <element signature="e#13686#13687#0" expanded="true" />
-                <element signature="e#13776#13777#0" expanded="true" />
-                <element signature="e#13879#13880#0" expanded="true" />
-                <element signature="e#13999#14000#0" expanded="true" />
-                <element signature="e#14128#14129#0" expanded="true" />
-                <element signature="e#14256#14257#0" expanded="true" />
-                <element signature="e#14363#14364#0" expanded="true" />
-                <element signature="e#14474#14475#0" expanded="true" />
-                <element signature="e#14591#14592#0" expanded="true" />
-                <element signature="e#14702#14703#0" expanded="true" />
-                <element signature="e#14813#14814#0" expanded="true" />
-                <element signature="e#14923#14924#0" expanded="true" />
-                <element signature="e#15017#15018#0" expanded="true" />
-                <element signature="e#15114#15115#0" expanded="true" />
-                <element signature="e#15220#15221#0" expanded="true" />
-                <element signature="e#15320#15321#0" expanded="true" />
-                <element signature="e#15427#15428#0" expanded="true" />
-                <element signature="e#15519#15520#0" expanded="true" />
-                <element signature="e#15607#15608#0" expanded="true" />
-                <element signature="e#15705#15706#0" expanded="true" />
-                <element signature="e#15783#15784#0" expanded="true" />
-                <element signature="e#15873#15874#0" expanded="true" />
-                <element signature="e#15971#15972#0" expanded="true" />
-                <element signature="e#16052#16053#0" expanded="true" />
-                <element signature="e#16134#16135#0" expanded="true" />
-                <element signature="e#16226#16227#0" expanded="true" />
-                <element signature="e#16329#16330#0" expanded="true" />
-                <element signature="e#16409#16410#0" expanded="true" />
-                <element signature="e#16497#16498#0" expanded="true" />
-                <element signature="e#16575#16576#0" expanded="true" />
-                <element signature="e#16671#16672#0" expanded="true" />
-                <element signature="e#16777#16778#0" expanded="true" />
-                <element signature="e#16871#16872#0" expanded="true" />
-                <element signature="e#16964#16965#0" expanded="true" />
-                <element signature="e#17062#17063#0" expanded="true" />
-                <element signature="e#17154#17155#0" expanded="true" />
-                <element signature="e#17282#17283#0" expanded="true" />
-                <element signature="e#17325#17326#0" expanded="true" />
-                <element signature="e#17375#17376#0" expanded="true" />
-                <element signature="e#17418#17419#0" expanded="true" />
-                <element signature="e#17463#17464#0" expanded="true" />
-                <element signature="e#17503#17504#0" expanded="true" />
-                <element signature="e#17551#17552#0" expanded="true" />
-                <element signature="e#17591#17592#0" expanded="true" />
-                <element signature="e#17636#17637#0" expanded="true" />
-                <element signature="e#17677#17678#0" expanded="true" />
-                <element signature="e#17728#17729#0" expanded="true" />
-                <element signature="e#17762#17763#0" expanded="true" />
-                <element signature="e#17834#17835#0" expanded="true" />
-                <element signature="e#17881#17882#0" expanded="true" />
-                <element signature="e#17927#17928#0" expanded="true" />
-                <element signature="e#17966#17967#0" expanded="true" />
-                <element signature="e#18015#18016#0" expanded="true" />
-                <element signature="e#18057#18058#0" expanded="true" />
-                <element signature="e#18100#18101#0" expanded="true" />
-                <element signature="e#18137#18138#0" expanded="true" />
-                <element signature="e#18187#18188#0" expanded="true" />
-                <element signature="e#18232#18233#0" expanded="true" />
-                <element signature="e#18273#18274#0" expanded="true" />
-                <element signature="e#18308#18309#0" expanded="true" />
-                <element signature="e#18351#18352#0" expanded="true" />
-                <element signature="e#18386#18387#0" expanded="true" />
-                <element signature="e#18430#18431#0" expanded="true" />
-                <element signature="e#18466#18467#0" expanded="true" />
-                <element signature="e#18509#18510#0" expanded="true" />
-                <element signature="e#18543#18544#0" expanded="true" />
-                <element signature="e#18593#18594#0" expanded="true" />
-                <element signature="e#18636#18637#0" expanded="true" />
-                <element signature="e#18675#18676#0" expanded="true" />
-                <element signature="e#18719#18720#0" expanded="true" />
-                <element signature="e#18748#18749#0" expanded="true" />
-                <element signature="e#18782#18783#0" expanded="true" />
-                <element signature="e#18699#18700#0" expanded="true" />
-                <element signature="e#18736#18737#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -230,17 +95,45 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/UnitedHealthCare/src/main/java/UnitedHome/HomePage.java">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/UnitedHealthCare/src/main/java/PageObjectModel/FindInsuranceForIndividualAndFamilies.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="176">
-              <caret line="14" column="24" selection-start-line="14" selection-start-column="24" selection-end-line="14" selection-end-column="24" />
+            <state relative-caret-position="208">
+              <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#237#238#0" expanded="true" />
-                <element signature="e#290#291#0" expanded="true" />
-                <element signature="e#454#455#0" expanded="true" />
-                <element signature="e#485#486#0" expanded="true" />
+                <element signature="e#918#919#0" expanded="true" />
+                <element signature="e#953#954#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/UnitedHealthCare/src/test/java/UnitedHomeTest/HomePageTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="242">
+              <caret line="16" column="3" selection-start-line="16" selection-start-column="3" selection-end-line="16" selection-end-column="3" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/UnitedHealthCare/src/main/java/UnitedHome/AllLinkInHomePage.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="6798">
+              <caret line="478" column="23" selection-start-line="478" selection-start-column="22" selection-end-line="478" selection-end-column="40" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#255#256#0" expanded="true" />
+                <element signature="e#309#310#0" expanded="true" />
+                <element signature="e#14146#14147#0" expanded="true" />
+                <element signature="e#14206#14207#0" expanded="true" />
+                <element signature="e#18363#18364#0" expanded="true" />
+                <element signature="e#18401#18402#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -274,6 +167,9 @@
         <option value="$PROJECT_DIR$/UnitedHealthCare/src/main/java/UnitedHome/Home.java" />
         <option value="$PROJECT_DIR$/UnitedHealthCare/src/main/java/UnitedHome/HomePage.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/UnitedHealthCare/src/test/resources/UnitedHealthCareTestRunner.xml" />
+        <option value="$PROJECT_DIR$/UnitedHealthCare/src/main/java/PageObjectModel/FindInsuranceForIndividualAndFamilies.java" />
+        <option value="$PROJECT_DIR$/UnitedHealthCare/src/test/java/TestPageObjectModel/TestFindIndividualsAndFamilies.java" />
         <option value="$PROJECT_DIR$/UnitedHealthCare/src/main/java/UnitedHome/AllLinkInHomePage.java" />
         <option value="$PROJECT_DIR$/UnitedHealthCare/src/test/java/UnitedHomeTest/HomePageTest.java" />
       </list>
@@ -351,10 +247,11 @@
   <component name="MavenRunner">
     <option name="skipTests" value="true" />
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="5" />
-    <option name="width" value="1920" />
-    <option name="height" value="1040" />
+    <option name="y" value="115" />
+    <option name="width" value="1725" />
+    <option name="height" value="890" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="1" id="Add" />
@@ -402,9 +299,24 @@
               <item name="AutomationFrameworkGroup6" type="462c0819:PsiDirectoryNode" />
               <item name="UnitedHealthCare" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AutomationFrameworkGroup6" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AutomationFrameworkGroup6" type="462c0819:PsiDirectoryNode" />
+              <item name="UnitedHealthCare" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="UnitedHome" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AutomationFrameworkGroup6" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AutomationFrameworkGroup6" type="462c0819:PsiDirectoryNode" />
+              <item name="UnitedHealthCare" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="TestPageObjectModel" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -415,7 +327,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553633723481" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553713295682" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
@@ -464,7 +376,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HomePageTest.cliclOnHomePageLogo" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="HomePageTest.testHealthCareFraud" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="UnitedHealthCare" />
       <extension name="coverage">
         <pattern>
@@ -474,7 +386,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="UnitedHomeTest" />
       <option name="MAIN_CLASS_NAME" value="UnitedHomeTest.HomePageTest" />
-      <option name="METHOD_NAME" value="cliclOnHomePageLogo" />
+      <option name="METHOD_NAME" value="testHealthCareFraud" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -482,7 +394,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HomePageTest.testHomePageLanguageLink" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="HomePageTest.testLegal" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="UnitedHealthCare" />
       <extension name="coverage">
         <pattern>
@@ -492,7 +404,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="UnitedHomeTest" />
       <option name="MAIN_CLASS_NAME" value="UnitedHomeTest.HomePageTest" />
-      <option name="METHOD_NAME" value="testHomePageLanguageLink" />
+      <option name="METHOD_NAME" value="testLegal" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -500,7 +412,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HomePageTest.testProviderLink" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="HomePageTest.testPrivecy" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="UnitedHealthCare" />
       <extension name="coverage">
         <pattern>
@@ -510,7 +422,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="UnitedHomeTest" />
       <option name="MAIN_CLASS_NAME" value="UnitedHomeTest.HomePageTest" />
-      <option name="METHOD_NAME" value="testProviderLink" />
+      <option name="METHOD_NAME" value="testPrivecy" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -518,7 +430,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestUnitedHomePage" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="HomePageTest.testTermsOfUse" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="UnitedHealthCare" />
       <extension name="coverage">
         <pattern>
@@ -527,8 +439,9 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="UnitedHomeTest" />
-      <option name="MAIN_CLASS_NAME" value="UnitedHomeTest.TestUnitedHomePage" />
-      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="MAIN_CLASS_NAME" value="UnitedHomeTest.HomePageTest" />
+      <option name="METHOD_NAME" value="testTermsOfUse" />
+      <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
       <method v="2">
@@ -538,10 +451,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="TestNG.HomePageTest" />
-        <item itemvalue="TestNG.HomePageTest.testHomePageLanguageLink" />
-        <item itemvalue="TestNG.HomePageTest.testProviderLink" />
-        <item itemvalue="TestNG.HomePageTest.cliclOnHomePageLogo" />
-        <item itemvalue="TestNG.TestUnitedHomePage" />
+        <item itemvalue="TestNG.HomePageTest.testTermsOfUse" />
+        <item itemvalue="TestNG.HomePageTest.testPrivecy" />
+        <item itemvalue="TestNG.HomePageTest.testLegal" />
+        <item itemvalue="TestNG.HomePageTest.testHealthCareFraud" />
       </list>
     </recent_temporary>
   </component>
@@ -559,34 +472,34 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="HomePageTest - 2019.03.25 at 22h 22m 27s.xml">
-      <configuration name="HomePageTest" configurationId="TestNG" />
+    <history-entry file="HomePageTest_testCheckBenefit - 2019.03.27 at 11h 05m 06s.xml">
+      <configuration name="HomePageTest.testCheckBenefit" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="HomePageTest - 2019.03.26 at 13h 05m 46s.xml">
-      <configuration name="HomePageTest" configurationId="TestNG" />
+    <history-entry file="HomePageTest_testNewsRoom - 2019.03.27 at 11h 06m 17s.xml">
+      <configuration name="HomePageTest.testNewsRoom" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="HomePageTest_testHomePageLanguageLink - 2019.03.26 at 13h 09m 56s.xml">
-      <configuration name="HomePageTest.testHomePageLanguageLink" configurationId="TestNG" />
+    <history-entry file="HomePageTest_testContactUs - 2019.03.27 at 11h 08m 10s.xml">
+      <configuration name="HomePageTest.testContactUs" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="HomePageTest - 2019.03.26 at 13h 10m 41s.xml">
-      <configuration name="HomePageTest" configurationId="TestNG" />
+    <history-entry file="HomePageTest_testCareers - 2019.03.27 at 11h 09m 33s.xml">
+      <configuration name="HomePageTest.testCareers" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="HomePageTest - 2019.03.26 at 13h 11m 41s.xml">
-      <configuration name="HomePageTest" configurationId="TestNG" />
+    <history-entry file="HomePageTest_testHealthCareFraud - 2019.03.27 at 11h 11m 07s.xml">
+      <configuration name="HomePageTest.testHealthCareFraud" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="HomePageTest - 2019.03.26 at 13h 15m 18s.xml">
-      <configuration name="HomePageTest" configurationId="TestNG" />
+    <history-entry file="HomePageTest_testLegal - 2019.03.27 at 11h 12m 36s.xml">
+      <configuration name="HomePageTest.testLegal" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="HomePageTest - 2019.03.26 at 13h 24m 16s.xml">
-      <configuration name="HomePageTest" configurationId="TestNG" />
+    <history-entry file="HomePageTest_testLegal - 2019.03.27 at 11h 15m 02s.xml">
+      <configuration name="HomePageTest.testLegal" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="HomePageTest - 2019.03.26 at 13h 32m 04s.xml">
-      <configuration name="HomePageTest" configurationId="TestNG" />
+    <history-entry file="HomePageTest_testPrivecy - 2019.03.27 at 11h 17m 31s.xml">
+      <configuration name="HomePageTest.testPrivecy" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="HomePageTest - 2019.03.26 at 13h 36m 23s.xml">
-      <configuration name="HomePageTest" configurationId="TestNG" />
+    <history-entry file="HomePageTest_testTermsOfUse - 2019.03.27 at 11h 18m 59s.xml">
+      <configuration name="HomePageTest.testTermsOfUse" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="HomePageTest - 2019.03.26 at 13h 41m 48s.xml">
+    <history-entry file="HomePageTest - 2019.03.27 at 11h 39m 30s.xml">
       <configuration name="HomePageTest" configurationId="TestNG" />
     </history-entry>
   </component>
@@ -600,10 +513,9 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="4" y="0" width="1536" height="832" extended-state="0" />
-    <editor active="true" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25203252" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18456376" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -612,15 +524,15 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.56" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.3989071" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.28895184" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.398017" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32857144" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32857144" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.42634562" />
       <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.5006775" side_tool="true" weight="0.32904148" />
       <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info anchor="bottom" id="Messages" order="10" sideWeight="0.4993225" weight="0.32857144" />
+      <window_info anchor="bottom" id="Messages" order="10" sideWeight="0.4993225" weight="0.32719547" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -682,6 +594,20 @@
                 </list>
               </option>
             </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list />
+          </value>
+        </entry>
+        <entry key="User">
+          <value>
+            <list />
           </value>
         </entry>
       </map>
@@ -753,6 +679,27 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/UnitedHealthCare/src/test/resources/UnitedHealthCareTestRunner.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="12" column="31" selection-start-line="12" selection-start-column="31" selection-end-line="12" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/UnitedHealthCare/src/main/java/UnitedHome/HomePage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="14" column="24" selection-start-line="14" selection-start-column="24" selection-end-line="14" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#237#238#0" expanded="true" />
+            <element signature="e#290#291#0" expanded="true" />
+            <element signature="e#454#455#0" expanded="true" />
+            <element signature="e#485#486#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Generic/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="836">
@@ -764,6 +711,28 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1122">
           <caret line="51" column="16" selection-start-line="51" selection-start-column="16" selection-end-line="51" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/UnitedHealthCare/src/main/java/UnitedHome/UnitedHomePage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="21" column="35" selection-start-line="21" selection-start-column="35" selection-end-line="21" selection-end-column="35" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#823#824#0" expanded="true" />
+            <element signature="e#871#872#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/UnitedHealthCare/src/test/java/TestPageObjectModel/TestFindIndividualsAndFamilies.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="14" column="65" selection-start-line="14" selection-start-column="65" selection-end-line="14" selection-end-column="65" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -795,152 +764,40 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/UnitedHealthCare/src/main/java/UnitedHome/HomePage.java">
+    <entry file="file://$PROJECT_DIR$/UnitedHealthCare/src/test/java/UnitedHomeTest/HomePageTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="14" column="24" selection-start-line="14" selection-start-column="24" selection-end-line="14" selection-end-column="24" />
+        <state relative-caret-position="242">
+          <caret line="16" column="3" selection-start-line="16" selection-start-column="3" selection-end-line="16" selection-end-column="3" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#237#238#0" expanded="true" />
-            <element signature="e#290#291#0" expanded="true" />
-            <element signature="e#454#455#0" expanded="true" />
-            <element signature="e#485#486#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/UnitedHealthCare/src/main/java/UnitedHome/UnitedHomePage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="21" column="35" selection-start-line="21" selection-start-column="35" selection-end-line="21" selection-end-column="35" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#823#824#0" expanded="true" />
-            <element signature="e#871#872#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/UnitedHealthCare/src/main/java/UnitedHome/AllLinkInHomePage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="440">
-          <caret line="26" column="117" selection-start-line="26" selection-start-column="117" selection-end-line="26" selection-end-column="117" />
+        <state relative-caret-position="6798">
+          <caret line="478" column="23" selection-start-line="478" selection-start-column="22" selection-end-line="478" selection-end-column="40" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#255#256#0" expanded="true" />
             <element signature="e#309#310#0" expanded="true" />
-            <element signature="e#10735#10736#0" expanded="true" />
-            <element signature="e#10818#10819#0" expanded="true" />
-            <element signature="e#10898#10899#0" expanded="true" />
-            <element signature="e#10978#10979#0" expanded="true" />
-            <element signature="e#11088#11089#0" expanded="true" />
-            <element signature="e#11177#11178#0" expanded="true" />
-            <element signature="e#11265#11266#0" expanded="true" />
-            <element signature="e#11355#11356#0" expanded="true" />
-            <element signature="e#11451#11452#0" expanded="true" />
-            <element signature="e#11532#11533#0" expanded="true" />
-            <element signature="e#11619#11620#0" expanded="true" />
-            <element signature="e#11718#11719#0" expanded="true" />
-            <element signature="e#11800#11801#0" expanded="true" />
-            <element signature="e#11886#11887#0" expanded="true" />
-            <element signature="e#11993#11994#0" expanded="true" />
-            <element signature="e#12230#12231#0" expanded="true" />
-            <element signature="e#12353#12354#0" expanded="true" />
-            <element signature="e#12457#12458#0" expanded="true" />
-            <element signature="e#12556#12557#0" expanded="true" />
-            <element signature="e#12648#12649#0" expanded="true" />
-            <element signature="e#12767#12768#0" expanded="true" />
-            <element signature="e#12880#12881#0" expanded="true" />
-            <element signature="e#12987#12988#0" expanded="true" />
-            <element signature="e#13099#13100#0" expanded="true" />
-            <element signature="e#13211#13212#0" expanded="true" />
-            <element signature="e#13315#13316#0" expanded="true" />
-            <element signature="e#13408#13409#0" expanded="true" />
-            <element signature="e#13508#13509#0" expanded="true" />
-            <element signature="e#13601#13602#0" expanded="true" />
-            <element signature="e#13686#13687#0" expanded="true" />
-            <element signature="e#13776#13777#0" expanded="true" />
-            <element signature="e#13879#13880#0" expanded="true" />
-            <element signature="e#13999#14000#0" expanded="true" />
-            <element signature="e#14128#14129#0" expanded="true" />
-            <element signature="e#14256#14257#0" expanded="true" />
-            <element signature="e#14363#14364#0" expanded="true" />
-            <element signature="e#14474#14475#0" expanded="true" />
-            <element signature="e#14591#14592#0" expanded="true" />
-            <element signature="e#14702#14703#0" expanded="true" />
-            <element signature="e#14813#14814#0" expanded="true" />
-            <element signature="e#14923#14924#0" expanded="true" />
-            <element signature="e#15017#15018#0" expanded="true" />
-            <element signature="e#15114#15115#0" expanded="true" />
-            <element signature="e#15220#15221#0" expanded="true" />
-            <element signature="e#15320#15321#0" expanded="true" />
-            <element signature="e#15427#15428#0" expanded="true" />
-            <element signature="e#15519#15520#0" expanded="true" />
-            <element signature="e#15607#15608#0" expanded="true" />
-            <element signature="e#15705#15706#0" expanded="true" />
-            <element signature="e#15783#15784#0" expanded="true" />
-            <element signature="e#15873#15874#0" expanded="true" />
-            <element signature="e#15971#15972#0" expanded="true" />
-            <element signature="e#16052#16053#0" expanded="true" />
-            <element signature="e#16134#16135#0" expanded="true" />
-            <element signature="e#16226#16227#0" expanded="true" />
-            <element signature="e#16329#16330#0" expanded="true" />
-            <element signature="e#16409#16410#0" expanded="true" />
-            <element signature="e#16497#16498#0" expanded="true" />
-            <element signature="e#16575#16576#0" expanded="true" />
-            <element signature="e#16671#16672#0" expanded="true" />
-            <element signature="e#16777#16778#0" expanded="true" />
-            <element signature="e#16871#16872#0" expanded="true" />
-            <element signature="e#16964#16965#0" expanded="true" />
-            <element signature="e#17062#17063#0" expanded="true" />
-            <element signature="e#17154#17155#0" expanded="true" />
-            <element signature="e#17282#17283#0" expanded="true" />
-            <element signature="e#17325#17326#0" expanded="true" />
-            <element signature="e#17375#17376#0" expanded="true" />
-            <element signature="e#17418#17419#0" expanded="true" />
-            <element signature="e#17463#17464#0" expanded="true" />
-            <element signature="e#17503#17504#0" expanded="true" />
-            <element signature="e#17551#17552#0" expanded="true" />
-            <element signature="e#17591#17592#0" expanded="true" />
-            <element signature="e#17636#17637#0" expanded="true" />
-            <element signature="e#17677#17678#0" expanded="true" />
-            <element signature="e#17728#17729#0" expanded="true" />
-            <element signature="e#17762#17763#0" expanded="true" />
-            <element signature="e#17834#17835#0" expanded="true" />
-            <element signature="e#17881#17882#0" expanded="true" />
-            <element signature="e#17927#17928#0" expanded="true" />
-            <element signature="e#17966#17967#0" expanded="true" />
-            <element signature="e#18015#18016#0" expanded="true" />
-            <element signature="e#18057#18058#0" expanded="true" />
-            <element signature="e#18100#18101#0" expanded="true" />
-            <element signature="e#18137#18138#0" expanded="true" />
-            <element signature="e#18187#18188#0" expanded="true" />
-            <element signature="e#18232#18233#0" expanded="true" />
-            <element signature="e#18273#18274#0" expanded="true" />
-            <element signature="e#18308#18309#0" expanded="true" />
-            <element signature="e#18351#18352#0" expanded="true" />
-            <element signature="e#18386#18387#0" expanded="true" />
-            <element signature="e#18430#18431#0" expanded="true" />
-            <element signature="e#18466#18467#0" expanded="true" />
-            <element signature="e#18509#18510#0" expanded="true" />
-            <element signature="e#18543#18544#0" expanded="true" />
-            <element signature="e#18593#18594#0" expanded="true" />
-            <element signature="e#18636#18637#0" expanded="true" />
-            <element signature="e#18675#18676#0" expanded="true" />
-            <element signature="e#18719#18720#0" expanded="true" />
-            <element signature="e#18748#18749#0" expanded="true" />
-            <element signature="e#18782#18783#0" expanded="true" />
-            <element signature="e#18699#18700#0" expanded="true" />
-            <element signature="e#18736#18737#0" expanded="true" />
+            <element signature="e#14146#14147#0" expanded="true" />
+            <element signature="e#14206#14207#0" expanded="true" />
+            <element signature="e#18363#18364#0" expanded="true" />
+            <element signature="e#18401#18402#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/UnitedHealthCare/src/test/java/UnitedHomeTest/HomePageTest.java">
+    <entry file="file://$PROJECT_DIR$/UnitedHealthCare/src/main/java/PageObjectModel/FindInsuranceForIndividualAndFamilies.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="440">
-          <caret line="20" column="7" lean-forward="true" selection-start-line="20" selection-start-column="7" selection-end-line="20" selection-end-column="7" />
+        <state relative-caret-position="208">
+          <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#918#919#0" expanded="true" />
+            <element signature="e#953#954#0" expanded="true" />
           </folding>
         </state>
       </provider>
