@@ -44,107 +44,54 @@ public class CommonAPI {
     public String saucelabs_username = "pbhowmik";
     public String saucelabs_accesskey = "dcd43ab5-1709-4f77-b2ce-5c9ba66054be";
     //Extent Report Listener
-
     public static ExtentReports extent;
-
     @BeforeSuite
-
     public void extentSetup(ITestContext context) {
-
         ExtentsManagers.setOutPutDirectory(context);
-
         extent = ExtentsManagers.getInstance();
-
     }
-
     @BeforeMethod
-
     public void startExtent(Method method) {
-
         String className = method.getDeclaringClass().getSimpleName();
-
         String methodName = method.getName().toLowerCase();
-
         ExtentTestManagers.startTest(method.getName());
-
         ExtentTestManagers.getTest().assignCategory(className);
-
     }
-
     protected String getStackTrace(Throwable t) {
-
         StringWriter sw = new StringWriter();
-
         PrintWriter pw = new PrintWriter(sw);
-
         t.printStackTrace(pw);
-
         return sw.toString();
-
     }
-
     @AfterMethod
-
     public void afterEachTestMethod(ITestResult result) {
-
         ExtentTestManagers.getTest().getTest().setStartedTime(getTime(result.getStartMillis()));
-
         ExtentTestManagers.getTest().getTest().setEndedTime(getTime(result.getEndMillis()));
-
-
-
         for (String group : result.getMethod().getGroups()) {
-
             ExtentTestManagers.getTest().assignCategory(group);
-
         }
-
-
-
         if (result.getStatus() == 1) {
-
             ExtentTestManagers.getTest().log(LogStatus.PASS, "Test Passed");
-
         } else if (result.getStatus() == 2) {
-
             ExtentTestManagers.getTest().log(LogStatus.FAIL, getStackTrace(result.getThrowable()));
-
         } else if (result.getStatus() == 3) {
-
             ExtentTestManagers.getTest().log(LogStatus.SKIP, "Test Skipped");
-
         }
-
         ExtentTestManagers.endTest();
-
         extent.flush();
-
         if (result.getStatus() == ITestResult.FAILURE) {
-
             captureScreenshot(driver, result.getName());
-
         }
-
         driver.quit();
-
     }
-
     @AfterSuite
-
     public void generateReport() {
-
         extent.close();
-
     }
-
     private Date getTime(long millis) {
-
         Calendar calendar = Calendar.getInstance();
-
         calendar.setTimeInMillis(millis);
-
         return calendar.getTime();
-
     }
 
     @Parameters({"useCloudEnv", "cloudEnvName", "os", "os_version", "browserName", "browserVersion", "url"})
@@ -166,6 +113,10 @@ public class CommonAPI {
         driver.manage().timeouts().pageLoadTimeout(30, TimeUnit.SECONDS);
         driver.get(url);
         driver.manage().window().maximize();
+    }
+    @Parameters
+    public void setUrl(String url){
+        driver.get(url);
     }
 
     public WebDriver getLocalDriver(@Optional("Windows") String OS, String browserName) {
@@ -223,7 +174,7 @@ public class CommonAPI {
 
     @AfterMethod
     public void cleanUp() {
-        driver.quit();
+        driver.close();
     }
 
     //type
@@ -600,27 +551,4 @@ public class CommonAPI {
         }
     }
 
-   // public void typeOnelemntsEnters(String locator, String value) {
-//        TestLogger.log(getClass().getSimpleName()+":"+convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
-//        try{
-//            driver.findElement(By.cssSelector(locator)).sendKeys(value,Keys.ENTER);
-//        }
-//        catch (Exception ex){
-//            try{
-//                System.out.println("First Attempt Successful");
-//                driver.findElement(By.name(locator)).sendKeys(value,Keys.ENTER);
-//            }
-//            catch (Exception ex1){
-//                try{
-//                    System.out.println("Second Attempt was not successfull");
-//                    driver.findElement(By.xpath(locator)).sendKeys(value,Keys.ENTER);
-//                }
-//                catch (Exception ex2){
-//                    System.out.println("Third Attempt Was not successful");
-//                    driver.findElement(By.id(locator)).sendKeys(value,Keys.ENTER);
-//                }
-//            }
-//        }
-//    }
-   // }
 }

@@ -12,9 +12,10 @@
 
     <test name = "United Home">
         <classes>
-            <!--<class name="title.AmazonHome"/>-->
-            <class name="TestPageObjectModel.TestFindIndividualsAndFamilies"/>
-           <class name="UnitedHomeTest.HomePageTest"/>
+            <!--<class name="UnitedHomeTest.TestDentalPlan"/>-->
+           <!--<class name="TestPageObjectModel.TestFindIndividualsAndFamilies"/>-->
+           <!--<class name="UnitedHomeTest.HomePageTest"/> -->
+            <class name="TestSignIn.testSignPage"/>
         </classes>
     </test>
 </suite>
