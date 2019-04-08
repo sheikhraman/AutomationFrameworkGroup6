@@ -9,9 +9,9 @@ import org.openqa.selenium.support.How;
 public class signInPage extends CommonAPI {
     @FindBy(how= How.ID,using ="hsid-registerNow")
     public static WebElement ResigterNow;
-    @FindBy(how = How.XPATH,using = "//input[@id='piFirstName']")
+    @FindBy(how = How.XPATH,using ="//input[@id='piFirstName']")
     public static WebElement firstName;
-    @FindBy(how = How.CLASS_NAME,using = "form-control ng-pristine ng-untouched ng-empty ng-invalid ng-invalid-required")
+    @FindBy(how = How.CLASS_NAME,using ="form-control ng-pristine ng-untouched ng-empty ng-invalid ng-invalid-required")
     public static WebElement lastName;
     @FindBy(how = How.CLASS_NAME,using = "form-control dob ng-scope ng-empty ng-invalid ng-invalid-required ng-valid-mask ng-dirty ng-valid-parse ng-touched")
     public static WebElement dob;

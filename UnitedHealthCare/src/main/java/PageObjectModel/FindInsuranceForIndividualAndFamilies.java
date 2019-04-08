@@ -27,6 +27,8 @@ public class FindInsuranceForIndividualAndFamilies extends CommonAPI {
     WebElement clickOnviewPlanDetails;
     @FindBy(css = ".cp-element-textinput c-input numeric-only")
     WebElement lookUpZipCodes;
+    @FindBy(xpath = "//span[contains(text(),'Enroll in Plan') and @class='u-m-r-sm']")
+    WebElement enrolPlan;
     public void clickOnIndividualsAndFamiliesLink(){
         driver.findElement(By.xpath("//a[contains(text(),'Individuals & Families')]")).click();
     }
@@ -41,7 +43,6 @@ public class FindInsuranceForIndividualAndFamilies extends CommonAPI {
     }
     public void lookUpZipCodes(){
         driver.findElement(By.xpath("//input[@class='cp-element-textinput c-input numeric-only']")).sendKeys("11371");
-
     }
     public void clickOnSearchPlanButton(){
         driver.findElement(By.cssSelector(".cp-button cp-button-primary c-button")).click();
@@ -53,18 +54,32 @@ public class FindInsuranceForIndividualAndFamilies extends CommonAPI {
         driver.findElement(By.cssSelector(".c-button cp-button cp-button-primary")).click();
     }
     public void clickOnEnrollInaPlan(){
-           try {
-               driver.findElement(By.xpath("//a[@class='c-button c-button--orange enrlBtn' and @href='/enroll-in-plan.html/welcome']")).click();
-           }
-           catch (Exception e){
                driver.findElement(By.xpath("//a[@class='c-button u-m-r-sm' and @href='/ny/medicare/2019/dual-complete-hmo-snp.html']")).click();
-           }
     }
-//    public void clickOnviewPlanDetails(){
-//        driver.findElement(By.xpath("//a[@href='/ny/medicare/2019/dual-complete-hmo-snp.html' and @class='c-button u-m-r-sm']")).click();
-//    }
-    public void clickOnCheckBox(){
+    public void EnrolPlan(){
+        driver.findElement(By.xpath("//span[contains(text(),'Enroll in Plan') and @class='u-m-r-sm']")).click();
+    }
+    public void clickOnCheckBoxReadAndAgree(){
+        driver.findElement(By.xpath("//label[contains(text(),'agree to the above')]")).click();
+    }
+    public void ClickOnNextButton(){
+        driver.findElement(By.id("enrollment-next-button")).click();
+    }
+    public void clickOnMedicaidCardCheckBox(){
+        driver.findElement(By.xpath("//label[@class='card-choice' and @for='card-type-after']")).click();
+    }
+    public void clickOnNextBlewChardChoice(){
+        driver.findElement(By.id("ole-form-next-button")).click();
+    }
+    public void enterFirstName(){
+        driver.findElement(By.xpath("//input[@id='firstName']")).sendKeys("John");
+    }
+    public void enterMiddleInitialName(){
+        driver.findElement(By.xpath("//input[@id='middleName']")).sendKeys("M");
+    }
+    public void enterLastName(){
+        driver.findElement(By.cssSelector("#lastName")).sendKeys("Dow");
+    }
 
-    }
 
 }

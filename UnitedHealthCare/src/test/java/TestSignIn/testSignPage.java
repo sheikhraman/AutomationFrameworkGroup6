@@ -13,7 +13,7 @@ public class testSignPage extends signInPage {
     public void initElement(){
         TestsLoggers.log(getClass().getSimpleName()+":"+convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         sign= PageFactory.initElements(driver,signInPage.class);
-        setUrl("https://www.myuhc.com/member/prewelcome.do?currentLanguageFromPreCheck=en");
+       // setUrl("https://www.myuhc.com/member/prewelcome.do?currentLanguageFromPreCheck=en");
     }
     @Test
     public void testRegisterNowButton(){
@@ -27,7 +27,7 @@ public class testSignPage extends signInPage {
     }
     @Test
     public void testLastNameTextField(){
-        TestsLoggers.log(getClass().getSimpleName()+":"+convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
+        //TestsLoggers.log(getClass().getSimpleName()+":"+convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         sign.checkLastName();
     }
     @Test

@@ -39,9 +39,9 @@ import java.util.concurrent.TimeUnit;
 public class CommonAPI {
 
     public static WebDriver driver = null;
-    public String browserstack_username = "prodipbhowmik1";
+    public String browserstack_username = "sheikhrhmn1";
     public String browserstack_accesskey = "zcsSyv1NSxppCq6E7TPT";
-    public String saucelabs_username = "pbhowmik";
+    public String saucelabs_username = "sheikhahdk1";
     public String saucelabs_accesskey = "dcd43ab5-1709-4f77-b2ce-5c9ba66054be";
     //Extent Report Listener
     public static ExtentReports extent;
@@ -98,7 +98,7 @@ public class CommonAPI {
     @BeforeMethod
     public void setUp(@Optional("false") boolean useCloudEnv, @Optional("false") String cloudEnvName,
                       @Optional("OS X") String os, @Optional("10") String os_version, @Optional("chrome") String browserName, @Optional("34")
-                              String browserVersion, @Optional("https://www.uhc.com/") String url) throws IOException {
+                              String browserVersion, @Optional("https://www.ebay.com/") String url) throws IOException {
         //System.setProperty("webdriver.chrome.driver", "/Users/peoplentech/eclipse-workspace-March2018/SeleniumProject1/driver/chromedriver");
         if (useCloudEnv == true) {
             if (cloudEnvName.equalsIgnoreCase("browserstack")) {
@@ -114,10 +114,10 @@ public class CommonAPI {
         driver.get(url);
         driver.manage().window().maximize();
     }
-    @Parameters
-    public void setUrl(String url){
-        driver.get(url);
-    }
+    //@Parameters
+    //public void setUrl(String url){
+       // driver.get(url);
+    //}
 
     public WebDriver getLocalDriver(@Optional("Windows") String OS, String browserName) {
         if (browserName.equalsIgnoreCase("chrome")) {
@@ -174,7 +174,7 @@ public class CommonAPI {
 
     @AfterMethod
     public void cleanUp() {
-        driver.close();
+        //driver.close();
     }
 
     //type

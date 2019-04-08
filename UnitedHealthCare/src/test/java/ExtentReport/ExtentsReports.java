@@ -1,4 +1,5 @@
 package ExtentReport;
+
 import Reportint.ApplicationsLog;
 import Reportint.TestsLoggers;
 import base.CommonAPI;
@@ -9,7 +10,7 @@ public class ExtentsReports extends CommonAPI {
         ApplicationsLog.EpicLogger();
         TestsLoggers.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         //String title = driver.getTitle();
-        //Assert.assertEquals(title, "Amazon.com: Online Shopping for Electronics, Apparel, Computers, Books, DVDs & more");
+       // Assert.assertEquals(title, "Health Insurance Plans for Individuals & Families, Employers, Medicare | UnitedHealthcare");
 
 
 

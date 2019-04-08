@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [Command line suite]">
+  <test thread-count="5" verbose="0" name="Command line test(failed)">
+    <classes>
+      <class name="UnitedHomeTest.TestUnitedHomePage">
+        <methods>
+          <include name="testMedicare"/>
+          <include name="testProviderLink"/>
+          <include name="setUp"/>
+          <include name="cleanUp"/>
+        </methods>
+      </class> <!-- UnitedHomeTest.TestUnitedHomePage -->
+      <class name="TestPageObjectModel.TestFindIndividualsAndFamilies">
+        <methods>
+          <include name="clickOnIndividualsAndFamiliesLink"/>
+          <include name="setUp"/>
+          <include name="cleanUp"/>
+        </methods>
+      </class> <!-- TestPageObjectModel.TestFindIndividualsAndFamilies -->
+      <class name="UnitedHomeTest.TestDentalPlan">
+        <methods>
+          <include name="testViewDentalPlan"/>
+        </methods>
+      </class> <!-- UnitedHomeTest.TestDentalPlan -->
+    </classes>
+  </test> <!-- Command line test(failed) -->
+</suite> <!-- Failed suite [Command line suite] -->

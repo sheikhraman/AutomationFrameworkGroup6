@@ -1,0 +1,1034 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite, 4 failed tests</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-Command_line_suite">
+              <span class="suite-name border-failed">Command line suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-Command_line_suite">
+                    <span>[unset file name]</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-Command_line_suite">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-Command_line_suite">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-Command_line_suite">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-Command_line_suite">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-Command_line_suite">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-Command_line_suite">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">25 methods, 4 failed,   21 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Command_line_suite" class="hide-methods failed suite-Command_line_suite"> (hide)</a> <!-- hide-methods failed suite-Command_line_suite -->
+                      <a href="#" panel-name="suite-Command_line_suite" class="show-methods failed suite-Command_line_suite"> (show)</a> <!-- show-methods failed suite-Command_line_suite -->
+                    </span>
+                    <div class="method-list-content failed suite-Command_line_suite">
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="TestPageObjectModel.TestFindIndividualsAndFamilies" hash-for-method="clickOnIndividualsAndFamiliesLink">clickOnIndividualsAndFamiliesLink</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="UnitedHomeTest.TestUnitedHomePage" hash-for-method="testMedicare">testMedicare</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="UnitedHomeTest.TestUnitedHomePage" hash-for-method="testProviderLink">testProviderLink</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="UnitedHomeTest.TestDentalPlan" hash-for-method="testViewDentalPlan">testViewDentalPlan</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Command_line_suite -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Command_line_suite" class="hide-methods passed suite-Command_line_suite"> (hide)</a> <!-- hide-methods passed suite-Command_line_suite -->
+                      <a href="#" panel-name="suite-Command_line_suite" class="show-methods passed suite-Command_line_suite"> (show)</a> <!-- show-methods passed suite-Command_line_suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Command_line_suite">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="UnitedHomeTest.TestUnitedHomePage" hash-for-method="checkImage">checkImage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="UnitedHomeTest.TestUnitedHomePage" hash-for-method="checkIndividualFamilyPlansTextUnderMedicarePlan">checkIndividualFamilyPlansTextUnderMedicarePlan</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="UnitedHomeTest.TestUnitedHomePage" hash-for-method="checkInsurancePlansandProductsTextExist">checkInsurancePlansandProductsTextExist</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="UnitedHomeTest.TestUnitedHomePage" hash-for-method="checkMedicarePlansTextExist">checkMedicarePlansTextExist</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="UnitedHomeTest.TestUnitedHomePage" hash-for-method="checkSearchText">checkSearchText</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="UnitedHomeTest.TestUnitedHomePage" hash-for-method="checkSmallBusinessPlansTextExist">checkSmallBusinessPlansTextExist</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="UnitedHomeTest.TestUnitedHomePage" hash-for-method="checkTextExist">checkTextExist</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="UnitedHomeTest.TestUnitedHomePage" hash-for-method="clickLearnMoreUnderSmallBusinessPlan">clickLearnMoreUnderSmallBusinessPlan</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="UnitedHomeTest.TestUnitedHomePage" hash-for-method="clickOnLearnMore">clickOnLearnMore</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="UnitedHomeTest.TestUnitedHomePage" hash-for-method="clickOnLearnMoreUnderIndividualsAndFamilyPlan">clickOnLearnMoreUnderIndividualsAndFamilyPlan</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="UnitedHomeTest.TestUnitedHomePage" hash-for-method="clickOnViewPlan">clickOnViewPlan</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="UnitedHomeTest.TestUnitedHomePage" hash-for-method="partABCD">partABCD</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="UnitedHomeTest.TestUnitedHomePage" hash-for-method="testBrokerLink">testBrokerLink</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="UnitedHomeTest.TestUnitedHomePage" hash-for-method="testClickOnSignIn">testClickOnSignIn</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="UnitedHomeTest.TestUnitedHomePage" hash-for-method="testEmployers">testEmployers</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="UnitedHomeTest.TestUnitedHomePage" hash-for-method="testFindAdoctor">testFindAdoctor</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="UnitedHomeTest.TestUnitedHomePage" hash-for-method="testHomeButton">testHomeButton</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="UnitedHomeTest.TestUnitedHomePage" hash-for-method="testIndividualAndFamilies">testIndividualAndFamilies</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="UnitedHomeTest.TestUnitedHomePage" hash-for-method="testSearchBox">testSearchBox</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="UnitedHomeTest.TestUnitedHomePage" hash-for-method="testSearchButton">testSearchButton</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="UnitedHomeTest.TestUnitedHomePage" hash-for-method="testUHClogo">testUHClogo</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Command_line_suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Command_line_suite" class="panel Command_line_suite">
+          <div class="suite-Command_line_suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">UnitedHomeTest.TestUnitedHomePage</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testMedicare">
+                  </a> <!-- testMedicare -->
+                  <span class="method-name">testMedicare</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//a[@href=&apos;/medicare&apos; and @title=&apos;Medicare&apos;]&quot;}
+  (Session info: chrome=73.0.3683.86)
+  (Driver info: chromedriver=2.45.615291 (ec3682e3c9061c10f26ea9e5cdcf3c53f3f74387),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;LAPTOP-G4S7FPOL&apos;, ip: &apos;10.11.11.167&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_201&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.45.615291 (ec3682e3c9061c..., userDataDir: C:\Users\sheik\AppData\Loca...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:62566}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 73.0.3683.86, webStorageEnabled: true}
+Session ID: ed242258fbc7b7aca160ddfa12611151
+*** Element info: {Using=xpath, value=//a[@href=&apos;/medicare&apos; and @title=&apos;Medicare&apos;]}
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at base.CommonAPI.clickByXpath(CommonAPI.java:253)
+	at UnitedHomeTest.TestUnitedHomePage.testMedicare(TestUnitedHomePage.java:65)
+... Removed 39 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testProviderLink">
+                  </a> <!-- testProviderLink -->
+                  <span class="method-name">testProviderLink</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//a[@href=&apos;https://www.uhcprovider.com/&apos; and @class=&apos;at-element-click-tracking&apos;]&quot;}
+  (Session info: chrome=73.0.3683.86)
+  (Driver info: chromedriver=2.45.615291 (ec3682e3c9061c10f26ea9e5cdcf3c53f3f74387),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;LAPTOP-G4S7FPOL&apos;, ip: &apos;10.11.11.167&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_201&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.45.615291 (ec3682e3c9061c..., userDataDir: C:\Users\sheik\AppData\Loca...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:62686}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 73.0.3683.86, webStorageEnabled: true}
+Session ID: 3c00a565ac928a2c29a03d9556aff3e6
+*** Element info: {Using=xpath, value=//a[@href=&apos;https://www.uhcprovider.com/&apos; and @class=&apos;at-element-click-tracking&apos;]}
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at base.CommonAPI.clickByXpath(CommonAPI.java:253)
+	at UnitedHomeTest.TestUnitedHomePage.testProviderLink(TestUnitedHomePage.java:32)
+... Removed 39 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Command_line_suite-class-failed -->
+          <div class="suite-Command_line_suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">TestPageObjectModel.TestFindIndividualsAndFamilies</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="clickOnIndividualsAndFamiliesLink">
+                  </a> <!-- clickOnIndividualsAndFamiliesLink -->
+                  <span class="method-name">clickOnIndividualsAndFamiliesLink</span>
+                  <div class="stack-trace">org.openqa.selenium.WebDriverException: unknown error: Element &lt;a href=&quot;https://www.uhccommunityplan.com/&quot; target=&quot;_blank&quot; aria-label=&quot;Find Medicaid plans (opens in a new window)&quot;&gt;...&lt;/a&gt; is not clickable at point (1018, 686). Other element would receive the click: &lt;div id=&quot;IPEbgCover127097&quot; onclick=&quot;javascript:ipe127097.clWin()&quot; style=&quot;position: fixed; left: 0px; top: 0px; display: block;margin:0;padding:0; z-index: 2147483646; background-color: black; width: 100%; height: 110%;opacity: 0.60; filter: progid:DXImageTransform.Microsoft.Alpha(opacity=60);&quot;&gt;&lt;/div&gt;
+  (Session info: chrome=73.0.3683.86)
+  (Driver info: chromedriver=2.45.615291 (ec3682e3c9061c10f26ea9e5cdcf3c53f3f74387),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;LAPTOP-G4S7FPOL&apos;, ip: &apos;10.11.11.167&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_201&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.45.615291 (ec3682e3c9061c..., userDataDir: C:\Users\sheik\AppData\Loca...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:60779}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 73.0.3683.86, webStorageEnabled: true}
+Session ID: fc16cee55b190d3de94510d31425aa96
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at PageObjectModel.FindInsuranceForIndividualAndFamilies.clickOnFindPlan(FindInsuranceForIndividualAndFamilies.java:34)
+	at TestPageObjectModel.TestFindIndividualsAndFamilies.clickOnIndividualsAndFamiliesLink(TestFindIndividualsAndFamilies.java:14)
+... Removed 39 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Command_line_suite-class-failed -->
+          <div class="suite-Command_line_suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">UnitedHomeTest.TestDentalPlan</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testViewDentalPlan">
+                  </a> <!-- testViewDentalPlan -->
+                  <span class="method-name">testViewDentalPlan</span>
+                  <div class="stack-trace">java.lang.NoSuchFieldError: driver
+	at UnitedHomeTest.TestDentalPlan.testViewDentalPlan(TestDentalPlan.java:12)
+... Removed 35 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Command_line_suite-class-failed -->
+          <div class="suite-Command_line_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">UnitedHomeTest.TestUnitedHomePage</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkImage">
+                  </a> <!-- checkImage -->
+                  <span class="method-name">checkImage</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkIndividualFamilyPlansTextUnderMedicarePlan">
+                  </a> <!-- checkIndividualFamilyPlansTextUnderMedicarePlan -->
+                  <span class="method-name">checkIndividualFamilyPlansTextUnderMedicarePlan</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkInsurancePlansandProductsTextExist">
+                  </a> <!-- checkInsurancePlansandProductsTextExist -->
+                  <span class="method-name">checkInsurancePlansandProductsTextExist</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkMedicarePlansTextExist">
+                  </a> <!-- checkMedicarePlansTextExist -->
+                  <span class="method-name">checkMedicarePlansTextExist</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkSearchText">
+                  </a> <!-- checkSearchText -->
+                  <span class="method-name">checkSearchText</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkSmallBusinessPlansTextExist">
+                  </a> <!-- checkSmallBusinessPlansTextExist -->
+                  <span class="method-name">checkSmallBusinessPlansTextExist</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkTextExist">
+                  </a> <!-- checkTextExist -->
+                  <span class="method-name">checkTextExist</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="clickLearnMoreUnderSmallBusinessPlan">
+                  </a> <!-- clickLearnMoreUnderSmallBusinessPlan -->
+                  <span class="method-name">clickLearnMoreUnderSmallBusinessPlan</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="clickOnLearnMore">
+                  </a> <!-- clickOnLearnMore -->
+                  <span class="method-name">clickOnLearnMore</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="clickOnLearnMoreUnderIndividualsAndFamilyPlan">
+                  </a> <!-- clickOnLearnMoreUnderIndividualsAndFamilyPlan -->
+                  <span class="method-name">clickOnLearnMoreUnderIndividualsAndFamilyPlan</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="clickOnViewPlan">
+                  </a> <!-- clickOnViewPlan -->
+                  <span class="method-name">clickOnViewPlan</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="partABCD">
+                  </a> <!-- partABCD -->
+                  <span class="method-name">partABCD</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testBrokerLink">
+                  </a> <!-- testBrokerLink -->
+                  <span class="method-name">testBrokerLink</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testClickOnSignIn">
+                  </a> <!-- testClickOnSignIn -->
+                  <span class="method-name">testClickOnSignIn</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testEmployers">
+                  </a> <!-- testEmployers -->
+                  <span class="method-name">testEmployers</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testFindAdoctor">
+                  </a> <!-- testFindAdoctor -->
+                  <span class="method-name">testFindAdoctor</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testHomeButton">
+                  </a> <!-- testHomeButton -->
+                  <span class="method-name">testHomeButton</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testIndividualAndFamilies">
+                  </a> <!-- testIndividualAndFamilies -->
+                  <span class="method-name">testIndividualAndFamilies</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testSearchBox">
+                  </a> <!-- testSearchBox -->
+                  <span class="method-name">testSearchBox</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testSearchButton">
+                  </a> <!-- testSearchButton -->
+                  <span class="method-name">testSearchButton</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testUHClogo">
+                  </a> <!-- testUHClogo -->
+                  <span class="method-name">testUHClogo</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Command_line_suite-class-passed -->
+        </div> <!-- panel Command_line_suite -->
+        <div panel-name="test-xml-Command_line_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite verbose=&quot;0&quot; name=&quot;Command line suite&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; verbose=&quot;0&quot; name=&quot;Command line test&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;TestPageObjectModel.TestFindIndividualsAndFamilies&quot;/&gt;
+      &lt;class name=&quot;UnitedHomeTest.HomePageTest&quot;/&gt;
+      &lt;class name=&quot;UnitedHomeTest.TestDentalPlan&quot;/&gt;
+      &lt;class name=&quot;UnitedHomeTest.TestUnitedHomePage&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Command line test --&gt;
+&lt;/suite&gt; &lt;!-- Command line suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Command_line_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Command line suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Command line test (4 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Command_line_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Command line suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Command_line_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Command line suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Command_line_suite');
+function tableData_Command_line_suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(25);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'testProviderLink')
+data.setCell(0, 2, 'UnitedHomeTest.TestUnitedHomePage')
+data.setCell(0, 3, 25064);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'testMedicare')
+data.setCell(1, 2, 'UnitedHomeTest.TestUnitedHomePage')
+data.setCell(1, 3, 25062);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'testEmployers')
+data.setCell(2, 2, 'UnitedHomeTest.TestUnitedHomePage')
+data.setCell(2, 3, 14365);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'testUHClogo')
+data.setCell(3, 2, 'UnitedHomeTest.TestUnitedHomePage')
+data.setCell(3, 3, 9777);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'testSearchButton')
+data.setCell(4, 2, 'UnitedHomeTest.TestUnitedHomePage')
+data.setCell(4, 3, 9714);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'partABCD')
+data.setCell(5, 2, 'UnitedHomeTest.TestUnitedHomePage')
+data.setCell(5, 3, 8829);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'clickOnViewPlan')
+data.setCell(6, 2, 'UnitedHomeTest.TestUnitedHomePage')
+data.setCell(6, 3, 8359);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'clickLearnMoreUnderSmallBusinessPlan')
+data.setCell(7, 2, 'UnitedHomeTest.TestUnitedHomePage')
+data.setCell(7, 3, 7330);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'testIndividualAndFamilies')
+data.setCell(8, 2, 'UnitedHomeTest.TestUnitedHomePage')
+data.setCell(8, 3, 4465);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'testHomeButton')
+data.setCell(9, 2, 'UnitedHomeTest.TestUnitedHomePage')
+data.setCell(9, 3, 3455);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'testFindAdoctor')
+data.setCell(10, 2, 'UnitedHomeTest.TestUnitedHomePage')
+data.setCell(10, 3, 2895);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'clickOnIndividualsAndFamiliesLink')
+data.setCell(11, 2, 'TestPageObjectModel.TestFindIndividualsAndFamilies')
+data.setCell(11, 3, 2829);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'clickOnLearnMore')
+data.setCell(12, 2, 'UnitedHomeTest.TestUnitedHomePage')
+data.setCell(12, 3, 2151);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'clickOnLearnMoreUnderIndividualsAndFamilyPlan')
+data.setCell(13, 2, 'UnitedHomeTest.TestUnitedHomePage')
+data.setCell(13, 3, 1516);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'checkImage')
+data.setCell(14, 2, 'UnitedHomeTest.TestUnitedHomePage')
+data.setCell(14, 3, 161);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'testBrokerLink')
+data.setCell(15, 2, 'UnitedHomeTest.TestUnitedHomePage')
+data.setCell(15, 3, 120);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'testSearchBox')
+data.setCell(16, 2, 'UnitedHomeTest.TestUnitedHomePage')
+data.setCell(16, 3, 119);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'testClickOnSignIn')
+data.setCell(17, 2, 'UnitedHomeTest.TestUnitedHomePage')
+data.setCell(17, 3, 104);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'checkMedicarePlansTextExist')
+data.setCell(18, 2, 'UnitedHomeTest.TestUnitedHomePage')
+data.setCell(18, 3, 48);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'checkIndividualFamilyPlansTextUnderMedicarePlan')
+data.setCell(19, 2, 'UnitedHomeTest.TestUnitedHomePage')
+data.setCell(19, 3, 44);
+data.setCell(20, 0, 20)
+data.setCell(20, 1, 'checkSmallBusinessPlansTextExist')
+data.setCell(20, 2, 'UnitedHomeTest.TestUnitedHomePage')
+data.setCell(20, 3, 36);
+data.setCell(21, 0, 21)
+data.setCell(21, 1, 'checkSearchText')
+data.setCell(21, 2, 'UnitedHomeTest.TestUnitedHomePage')
+data.setCell(21, 3, 33);
+data.setCell(22, 0, 22)
+data.setCell(22, 1, 'checkTextExist')
+data.setCell(22, 2, 'UnitedHomeTest.TestUnitedHomePage')
+data.setCell(22, 3, 31);
+data.setCell(23, 0, 23)
+data.setCell(23, 1, 'checkInsurancePlansandProductsTextExist')
+data.setCell(23, 2, 'UnitedHomeTest.TestUnitedHomePage')
+data.setCell(23, 3, 31);
+data.setCell(24, 0, 24)
+data.setCell(24, 1, 'testViewDentalPlan')
+data.setCell(24, 2, 'UnitedHomeTest.TestDentalPlan')
+data.setCell(24, 3, 0);
+window.suiteTableData['Command_line_suite']= { tableData: data, tableDiv: 'times-div-Command_line_suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 2 minutes</span>
+              <div id="times-div-Command_line_suite">
+              </div> <!-- times-div-Command_line_suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Command_line_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Command line suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Command_line_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Command_line_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">TestPageObjectModel.TestFindIndividualsAndFamilies</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(false, false, OS X, 10, chrome, 34, https://www.uhc.com/)</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">clickOnIndividualsAndFamiliesLink</span>
+                <span class="method-start">13601 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">cleanUp</span>
+                <span class="method-start">16434 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">UnitedHomeTest.TestDentalPlan</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">testViewDentalPlan</span>
+                <span class="method-start">16653 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">UnitedHomeTest.TestUnitedHomePage</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(false, false, OS X, 10, chrome, 34, https://www.uhc.com/)</span>
+                <span class="method-start">16666 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">checkImage</span>
+                <span class="method-start">26688 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">cleanUp</span>
+                <span class="method-start">26850 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(false, false, OS X, 10, chrome, 34, https://www.uhc.com/)</span>
+                <span class="method-start">29259 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">checkIndividualFamilyPlansTextUnderMedicarePlan</span>
+                <span class="method-start">42258 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">cleanUp</span>
+                <span class="method-start">42302 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(false, false, OS X, 10, chrome, 34, https://www.uhc.com/)</span>
+                <span class="method-start">42526 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">checkInsurancePlansandProductsTextExist</span>
+                <span class="method-start">57642 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">cleanUp</span>
+                <span class="method-start">57673 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(false, false, OS X, 10, chrome, 34, https://www.uhc.com/)</span>
+                <span class="method-start">60007 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">checkMedicarePlansTextExist</span>
+                <span class="method-start">69596 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">cleanUp</span>
+                <span class="method-start">69644 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(false, false, OS X, 10, chrome, 34, https://www.uhc.com/)</span>
+                <span class="method-start">71974 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">checkSearchText</span>
+                <span class="method-start">87769 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">cleanUp</span>
+                <span class="method-start">87803 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(false, false, OS X, 10, chrome, 34, https://www.uhc.com/)</span>
+                <span class="method-start">89889 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">checkSmallBusinessPlansTextExist</span>
+                <span class="method-start">103097 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">cleanUp</span>
+                <span class="method-start">103133 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(false, false, OS X, 10, chrome, 34, https://www.uhc.com/)</span>
+                <span class="method-start">105459 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">checkTextExist</span>
+                <span class="method-start">117851 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">cleanUp</span>
+                <span class="method-start">117882 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(false, false, OS X, 10, chrome, 34, https://www.uhc.com/)</span>
+                <span class="method-start">119958 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">clickLearnMoreUnderSmallBusinessPlan</span>
+                <span class="method-start">131965 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">cleanUp</span>
+                <span class="method-start">139295 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(false, false, OS X, 10, chrome, 34, https://www.uhc.com/)</span>
+                <span class="method-start">141387 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">clickOnLearnMore</span>
+                <span class="method-start">152612 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">cleanUp</span>
+                <span class="method-start">154763 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(false, false, OS X, 10, chrome, 34, https://www.uhc.com/)</span>
+                <span class="method-start">155034 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">clickOnLearnMoreUnderIndividualsAndFamilyPlan</span>
+                <span class="method-start">165827 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">cleanUp</span>
+                <span class="method-start">167343 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(false, false, OS X, 10, chrome, 34, https://www.uhc.com/)</span>
+                <span class="method-start">167586 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">clickOnViewPlan</span>
+                <span class="method-start">175675 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">cleanUp</span>
+                <span class="method-start">184035 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(false, false, OS X, 10, chrome, 34, https://www.uhc.com/)</span>
+                <span class="method-start">184105 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">partABCD</span>
+                <span class="method-start">193193 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">cleanUp</span>
+                <span class="method-start">202023 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(false, false, OS X, 10, chrome, 34, https://www.uhc.com/)</span>
+                <span class="method-start">204100 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testBrokerLink</span>
+                <span class="method-start">218406 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">cleanUp</span>
+                <span class="method-start">218526 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(false, false, OS X, 10, chrome, 34, https://www.uhc.com/)</span>
+                <span class="method-start">220850 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testClickOnSignIn</span>
+                <span class="method-start">234650 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">cleanUp</span>
+                <span class="method-start">234754 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(false, false, OS X, 10, chrome, 34, https://www.uhc.com/)</span>
+                <span class="method-start">235003 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testEmployers</span>
+                <span class="method-start">240357 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">cleanUp</span>
+                <span class="method-start">254722 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(false, false, OS X, 10, chrome, 34, https://www.uhc.com/)</span>
+                <span class="method-start">256810 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testFindAdoctor</span>
+                <span class="method-start">273797 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">cleanUp</span>
+                <span class="method-start">276692 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(false, false, OS X, 10, chrome, 34, https://www.uhc.com/)</span>
+                <span class="method-start">277069 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testHomeButton</span>
+                <span class="method-start">292960 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">cleanUp</span>
+                <span class="method-start">296416 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(false, false, OS X, 10, chrome, 34, https://www.uhc.com/)</span>
+                <span class="method-start">298746 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testIndividualAndFamilies</span>
+                <span class="method-start">310454 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">cleanUp</span>
+                <span class="method-start">314920 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(false, false, OS X, 10, chrome, 34, https://www.uhc.com/)</span>
+                <span class="method-start">317037 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">testMedicare</span>
+                <span class="method-start">330723 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">cleanUp</span>
+                <span class="method-start">355786 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(false, false, OS X, 10, chrome, 34, https://www.uhc.com/)</span>
+                <span class="method-start">358111 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">testProviderLink</span>
+                <span class="method-start">370628 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">cleanUp</span>
+                <span class="method-start">395694 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(false, false, OS X, 10, chrome, 34, https://www.uhc.com/)</span>
+                <span class="method-start">398021 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testSearchBox</span>
+                <span class="method-start">412954 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">cleanUp</span>
+                <span class="method-start">413073 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(false, false, OS X, 10, chrome, 34, https://www.uhc.com/)</span>
+                <span class="method-start">413271 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testSearchButton</span>
+                <span class="method-start">419771 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">cleanUp</span>
+                <span class="method-start">429485 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(false, false, OS X, 10, chrome, 34, https://www.uhc.com/)</span>
+                <span class="method-start">431591 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testUHClogo</span>
+                <span class="method-start">448393 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">cleanUp</span>
+                <span class="method-start">458170 ms</span>
+              </div> <!-- configuration-method after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>
